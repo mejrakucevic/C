@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
 
@@ -21,8 +22,31 @@ int main() {
     float gpa = 3.05; // floating point number/ decimal
     char grade = 'B'; // single character
     char name[] = "Mejra"; // array of characters
-    printf(name);
+    
+    // printf("Hello, %s", name);
+    // printf("\nYou are %d years old\n", age);
+    // printf("Your average grade is %c\n", grade);
+    // printf("Your gpa is %f", gpa);
 
+    // double d = 3.141567567567; // 8 bytes
+    // printf("0.15%lf\n", d);
+
+//    bool e = true;
+//    printf("%d\n", e);
+
+//    unsigned char f = 280;
+//    printf("%d", f);
+
+//    short int h = 32525;
+//    unsigned short in i = 6555;
+
+     float item1 = 5.75;
+     float item2 = 10.00;
+     float item3 = 100.99;
+
+     printf("Item 1 : $%8.2f\n", item1);
+     printf("Item 2 : $%8.2f\n", item2);
+     printf("Item 3 : $%8.2f", item3);
 
     return 0;
 }
