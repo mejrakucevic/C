@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
+#include <math.h>
 
 int main() {
 
@@ -51,19 +52,27 @@ int main() {
 
     // return 0;
 
-    printf("I like pizza!\n");
+    // printf("I like pizza!\n");
 
-    int age1;
+    // int age1;
  
-    //char name1[25]; // bytes
-    printf("Whats your name?\n");
-    //scanf("%s", &name1);
-    fgets(name, 25, stdin);
-    name[strlen(name)-1] = '\0';
+    // //char name1[25]; // bytes
+    // printf("Whats your name?\n");
+    // //scanf("%s", &name1);
+    // fgets(name, 25, stdin);
+    // name[strlen(name)-1] = '\0';
 
-    printf("Hello %s, how are you?\n", name);
-    printf("How old are you?\n");
-    scanf("%d", &age1);
-    printf("You are %d years old", age1);
+    // printf("Hello %s, how are you?\n", name);
+    // printf("How old are you?\n");
+    // scanf("%d", &age1);
+    // printf("You are %d years old", age1);
+
+    double A = sqrt(64);
+    double B = pow(2, 4);
+    int C = round(3.14);
+    int D = ceil(3.14); //round up
+    int E = floor(3.99); // round down
+
+    printf("\n%d", E);
     return 0;
 }
