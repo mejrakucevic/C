@@ -67,12 +67,25 @@ int main() {
     // scanf("%d", &age1);
     // printf("You are %d years old", age1);
 
-    double A = sqrt(64);
-    double B = pow(2, 4);
-    int C = round(3.14);
-    int D = ceil(3.14); //round up
-    int E = floor(3.99); // round down
+    // double A = sqrt(64);
+    // double B = pow(2, 4);
+    // int C = round(3.14);
+    // int D = ceil(3.14); //round up
+    // int E = floor(3.99); // round down
 
-    printf("\n%d", E);
+    // printf("\n%d", E);
+
+    // circle circumference round up calculator
+    double r;
+    
+    const double PI = 3.14159;
+    printf("Enter the radius of your circle\n");
+
+    scanf("%lf", &r);
+    int E = 2 * r * PI;
+    double area;
+    area = PI * r * r;
+    printf("\narea: %lf", area);
+    printf("\nCircumference: %d", E);
     return 0;
 }
