@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 
 int main() {
 
@@ -40,13 +41,29 @@ int main() {
 //    short int h = 32525;
 //    unsigned short in i = 6555;
 
-     float item1 = 5.75;
-     float item2 = 10.00;
-     float item3 = 100.99;
+    //  float item1 = 5.75;
+    //  float item2 = 10.00;
+    //  float item3 = 100.99;
 
-     printf("Item 1 : $%8.2f\n", item1);
-     printf("Item 2 : $%8.2f\n", item2);
-     printf("Item 3 : $%8.2f\n", item3);
+    //  printf("Item 1 : $%8.2f\n", item1);
+    //  printf("Item 2 : $%8.2f\n", item2);
+    //  printf("Item 3 : $%8.2f\n", item3);
 
+    // return 0;
+
+    printf("I like pizza!\n");
+
+    int age1;
+ 
+    //char name1[25]; // bytes
+    printf("Whats your name?\n");
+    //scanf("%s", &name1);
+    fgets(name, 25, stdin);
+    name[strlen(name)-1] = '\0';
+
+    printf("Hello %s, how are you?\n", name);
+    printf("How old are you?\n");
+    scanf("%d", &age1);
+    printf("You are %d years old", age1);
     return 0;
 }
