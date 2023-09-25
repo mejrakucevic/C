@@ -89,19 +89,33 @@ int main() {
     // printf("\nCircumference: %d", E);
 
 
-    double A;
-    double B;
-    double C;
+    // double A;
+    // double B;
+    // double C;
 
-    printf("Enter side A: ");
-    scanf("%lf", &A);
+    // printf("Enter side A: ");
+    // scanf("%lf", &A);
 
-    printf("Enter side B: ");
-    scanf("%lf", &B);
+    // printf("Enter side B: ");
+    // scanf("%lf", &B);
     
-    C = sqrt(A*A + B*B);
-    printf("Side C: %lf", C);
-   
+    // C = sqrt(A*A + B*B);
+    // printf("Side C: %lf", C);
+
+    int age1;
+
+    printf("\nEnter your age:");
+    scanf("%d", &age1);
+    
+    if(age1 >= 18){
+        printf("You are eligible for a credit card!");
+    }
+    else if(age1 <0){
+        printf("Wrong input!");
+    }
+    else {
+        printf("You are not eligible for a credit card!");
+    }
 
     return 0;
 }
