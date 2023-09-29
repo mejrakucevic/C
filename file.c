@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <math.h>
+#include <ctype.h>
 
 int main() {
 
@@ -102,20 +103,42 @@ int main() {
     // C = sqrt(A*A + B*B);
     // printf("Side C: %lf", C);
 
-    int age1;
+    // int age1;
 
-    printf("\nEnter your age:");
-    scanf("%d", &age1);
+    // printf("\nEnter your age:");
+    // scanf("%d", &age1);
     
-    if(age1 >= 18){
-        printf("You are eligible for a credit card!");
-    }
-    else if(age1 <0){
-        printf("Wrong input!");
-    }
-    else {
-        printf("You are not eligible for a credit card!");
-    }
+    // if(age1 >= 18){
+    //     printf("You are eligible for a credit card!");
+    // }
+    // else if(age1 <0){
+    //     printf("Wrong input!");
+    // }
+    // else {
+    //     printf("You are not eligible for a credit card!");
+    // }
 
+
+    char unit;
+    float temp;
+
+    printf("\nIs the temperature in F or C?");
+    scanf("%c", &unit);
+
+    unit = toupper(unit);
+    if(unit == 'C') {
+         printf("\nEnter the temp in celsius");
+         scanf("%f", &temp);
+         temp = (temp * 9 / 5) + 32;
+         printf("\nThe temperature in Farenheith is: %.1f", temp);
+    } else if (unit == 'F'){
+                 printf("\nEnter the temp in Farenheit");
+                 scanf("%f", &temp);
+                 temp = ((temp - 32) * 5) / 9;
+                 printf("\nThe temp in celsius is %.1f", temp);
+    } else {
+       printf("Not a valid unit of measurment");
+    }
+    
     return 0;
 }
