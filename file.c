@@ -118,26 +118,65 @@ int main() {
     //     printf("You are not eligible for a credit card!");
     // }
 
+    // Convert Temperature Measurements program
+    // char unit;
+    // float temp;
 
-    char unit;
-    float temp;
+    // printf("\nIs the temperature in F or C?");
+    // scanf("%c", &unit);
 
-    printf("\nIs the temperature in F or C?");
-    scanf("%c", &unit);
+    // unit = toupper(unit);
+    // if(unit == 'C') {
+    //      printf("\nEnter the temp in celsius");
+    //      scanf("%f", &temp);
+    //      temp = (temp * 9 / 5) + 32;
+    //      printf("\nThe temperature in Farenheith is: %.1f", temp);
+    // } else if (unit == 'F'){
+    //              printf("\nEnter the temp in Farenheit");
+    //              scanf("%f", &temp);
+    //              temp = ((temp - 32) * 5) / 9;
+    //              printf("\nThe temp in celsius is %.1f", temp);
+    // } else {
+    //    printf("Not a valid unit of measurment");
+    // }
+    
+    // Calculator Program
+    char operator;
+    double num1;
+    double num2;
+    double result;
 
-    unit = toupper(unit);
-    if(unit == 'C') {
-         printf("\nEnter the temp in celsius");
-         scanf("%f", &temp);
-         temp = (temp * 9 / 5) + 32;
-         printf("\nThe temperature in Farenheith is: %.1f", temp);
-    } else if (unit == 'F'){
-                 printf("\nEnter the temp in Farenheit");
-                 scanf("%f", &temp);
-                 temp = ((temp - 32) * 5) / 9;
-                 printf("\nThe temp in celsius is %.1f", temp);
-    } else {
-       printf("Not a valid unit of measurment");
+    printf("\nEnter an operator (+ - * /): ");
+    scanf("%c", &operator);
+
+    printf("Enter number 1: ");
+    scanf("%lf", &num1);
+
+    printf("Enter number 2: ");
+    scanf("%lf", &num2);
+
+    switch(operator) {
+        case '+':
+          result = num1 + num2;
+          printf("\nresult : %.2lf", result);
+          break; 
+        
+         case '-':
+          result = num1 - num2;
+          printf("\nresult : %.2lf", result);
+          break;  
+
+           case '*':
+          result = num1 * num2;
+          printf("\nresult : %.2lf", result);
+          break; 
+
+           case '/':
+          result = num1 / num2;
+          printf("\nresult : %.2lf", result);
+          break; 
+        default:
+        printf("%c is not valid", operator);
     }
     
     return 0;
