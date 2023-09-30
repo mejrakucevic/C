@@ -4,18 +4,33 @@
 #include <math.h>
 #include <ctype.h>
 
- void birthday(char name3[], int age3) {
-        printf("\nHappy Birthday dear %s!", name3);
-        printf("\nYou are %d years old!", age3);
+//  void birthday(char x[], int y) {
+//         printf("\nHappy Birthday dear %s!", x);
+//         printf("\nYou are %d years old!", y);
      
-    }
+//     }
        
+    //    double square(double x) {
+    //         double result = x * x;
+    //         return result;
+    //    }
+
+int findMax(int x, int y) {
+    return (x > y) ? x : y;
+}
 
 int main() {
-    char name3[] = "Mejra";
-    int age3 = 18;
 
-    birthday(name3, age3);
+    int max = findMax(3, 4);
+
+    printf("%d", max);
+
+    // double x = square(3.14);
+    // printf("%lf", x);
+    // char name3[] = "Mejra";
+    // int age3 = 18;
+
+    // birthday(name3, age3);
       
 
     // This is a comment 
@@ -28,15 +43,15 @@ int main() {
     // printf("1\t2\t3\n4\t5\t6\n");
     // printf("\"I like Pizza\"");
 
-    int x; // declaration
-    x  = 132; // initilization
+    // int x; // declaration
+    // x  = 132; // initilization
 
-    int y = 192; // declaration + intilization
+    // int y = 192; // declaration + intilization
 
-    int age = 18; // integer
-    float gpa = 3.05; // floating point number/ decimal
-    char grade = 'B'; // single character
-    char name[] = "Mejra"; // array of characters
+    // int age = 18; // integer
+    // float gpa = 3.05; // floating point number/ decimal
+    // char grade = 'B'; // single character
+    // char name[] = "Mejra"; // array of characters
     
     // printf("Hello, %s", name);
     // printf("\nYou are %d years old\n", age);
