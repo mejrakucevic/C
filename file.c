@@ -4,7 +4,19 @@
 #include <math.h>
 #include <ctype.h>
 
+ void birthday(char name3[], int age3) {
+        printf("\nHappy Birthday dear %s!", name3);
+        printf("\nYou are %d years old!", age3);
+     
+    }
+       
+
 int main() {
+    char name3[] = "Mejra";
+    int age3 = 18;
+
+    birthday(name3, age3);
+      
 
     // This is a comment 
     // printf("I\nlike\npizza\n");
@@ -194,6 +206,9 @@ int main() {
     // } else {
     //     printf("Its sunny!");
     // }
+
+   
+       
 
     
     
