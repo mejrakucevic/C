@@ -179,14 +179,23 @@ int main() {
     //     printf("%c is not valid", operator);
     // }
 
-    float temp = 25;
-    bool sunny = true;
+    // float temp = 25;
+    // bool sunny = true;
 
-    if(temp >= 20 && temp <= 30 && sunny) {
-        printf("\nThe weather is good!");
-    } else {
-        printf("\nThe weather is bad!");
-    }
+    // if(temp >= 20 && temp <= 30 && sunny) {
+    //     printf("\nThe weather is good!");
+    // } else {
+    //     printf("\nThe weather is bad!");
+    // }
+
+    // bool sunny = true;
+    // if(!sunny) {
+    //     printf("Its clooudy!");
+    // } else {
+    //     printf("Its sunny!");
+    // }
+
+    
     
     return 0;
 }
