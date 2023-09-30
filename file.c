@@ -141,42 +141,51 @@ int main() {
     // }
     
     // Calculator Program
-    char operator;
-    double num1;
-    double num2;
-    double result;
+    // char operator;
+    // double num1;
+    // double num2;
+    // double result;
 
-    printf("\nEnter an operator (+ - * /): ");
-    scanf("%c", &operator);
+    // printf("\nEnter an operator (+ - * /): ");
+    // scanf("%c", &operator);
 
-    printf("Enter number 1: ");
-    scanf("%lf", &num1);
+    // printf("Enter number 1: ");
+    // scanf("%lf", &num1);
 
-    printf("Enter number 2: ");
-    scanf("%lf", &num2);
+    // printf("Enter number 2: ");
+    // scanf("%lf", &num2);
 
-    switch(operator) {
-        case '+':
-          result = num1 + num2;
-          printf("\nresult : %.2lf", result);
-          break; 
+    // switch(operator) {
+    //     case '+':
+    //       result = num1 + num2;
+    //       printf("\nresult : %.2lf", result);
+    //       break; 
         
-         case '-':
-          result = num1 - num2;
-          printf("\nresult : %.2lf", result);
-          break;  
+    //      case '-':
+    //       result = num1 - num2;
+    //       printf("\nresult : %.2lf", result);
+    //       break;  
 
-           case '*':
-          result = num1 * num2;
-          printf("\nresult : %.2lf", result);
-          break; 
+    //        case '*':
+    //       result = num1 * num2;
+    //       printf("\nresult : %.2lf", result);
+    //       break; 
 
-           case '/':
-          result = num1 / num2;
-          printf("\nresult : %.2lf", result);
-          break; 
-        default:
-        printf("%c is not valid", operator);
+    //        case '/':
+    //       result = num1 / num2;
+    //       printf("\nresult : %.2lf", result);
+    //       break; 
+    //     default:
+    //     printf("%c is not valid", operator);
+    // }
+
+    float temp = 25;
+    bool sunny = true;
+
+    if(temp >= 20 && temp <= 30 && sunny) {
+        printf("\nThe weather is good!");
+    } else {
+        printf("\nThe weather is bad!");
     }
     
     return 0;
