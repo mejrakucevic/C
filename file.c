@@ -15,15 +15,28 @@
     //         return result;
     //    }
 
-int findMax(int x, int y) {
-    return (x > y) ? x : y;
-}
+// int findMax(int x, int y) {
+//     return (x > y) ? x : y;
+// }
+
 
 int main() {
 
-    int max = findMax(3, 4);
+  char string1[] ="Mejra";
+  char string2[] = "Kucevic";
 
-    printf("%d", max);
+  strupr(string1);
+  strcpy(string1, string2);
+  strrev(string1);
+
+  int result = strlen(string1);
+
+  printf("%d", result);
+  
+
+    // int max = findMax(3, 4);
+
+    // printf("%d", max);
 
     // double x = square(3.14);
     // printf("%lf", x);
@@ -168,43 +181,43 @@ int main() {
     // }
     
     // Calculator Program
-    char operator;
-    double num1;
-    double num2;
-    double result;
+    // char operator;
+    // double num1;
+    // double num2;
+    // double result;
 
-    printf("\nEnter an operator (+ - * /): ");
-    scanf("%c", &operator);
+    // printf("\nEnter an operator (+ - * /): ");
+    // scanf("%c", &operator);
 
-    printf("Enter number 1: ");
-    scanf("%lf", &num1);
+    // printf("Enter number 1: ");
+    // scanf("%lf", &num1);
 
-    printf("Enter number 2: ");
-    scanf("%lf", &num2);
+    // printf("Enter number 2: ");
+    // scanf("%lf", &num2);
 
-    switch(operator) {
-        case '+':
-          result = num1 + num2;
-          printf("\nresult : %.2lf", result);
-          break; 
+    // switch(operator) {
+    //     case '+':
+    //       result = num1 + num2;
+    //       printf("\nresult : %.2lf", result);
+    //       break; 
         
-        case '-':
-          result = num1 - num2;
-          printf("\nresult : %.2lf", result);
-          break;  
+    //     case '-':
+    //       result = num1 - num2;
+    //       printf("\nresult : %.2lf", result);
+    //       break;  
 
-        case '*':
-          result = num1 * num2;
-          printf("\nresult : %.2lf", result);
-          break; 
+    //     case '*':
+    //       result = num1 * num2;
+    //       printf("\nresult : %.2lf", result);
+    //       break; 
 
-        case '/':
-          result = num1 / num2;
-          printf("\nresult : %.2lf", result);
-          break; 
-        default:
-        printf("%c is not valid", operator);
-    }
+    //     case '/':
+    //       result = num1 / num2;
+    //       printf("\nresult : %.2lf", result);
+    //       break; 
+    //     default:
+    //     printf("%c is not valid", operator);
+    // }
 
     // float temp = 25;
     // bool sunny = true;
