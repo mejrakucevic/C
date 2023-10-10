@@ -38,7 +38,7 @@
 
 //      return 0;
 // }
---------------------------------------------
+// --------------------------------------------
 // 3. Izracunati kvadrat upisanog broja
 
 // float broj;
@@ -53,4 +53,17 @@
 
 
 //     return 0;
+// }
+
+// selekcije . razgraniti algoritam
+
+// int main() {
+//     int num;
+//     scanf("%d", &num);
+
+//     if (num >= 18) {
+//         printf("You are a legal adult!");
+//     } else {
+//         printf("You are not legal yet!");
+// } 
 // }
