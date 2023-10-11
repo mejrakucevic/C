@@ -67,3 +67,20 @@
 //         printf("You are not legal yet!");
 // } 
 // }
+
+// ciklicne strukture - algoritmi
+// brojac parnih brojeva od 1 do 25
+
+
+int main() {
+    int  i;
+    printf("Parni brojevi od 1 do 25 su :\n");
+    for (i = 1; i <= 25; i++) {
+        if (i % 2 == 0) {
+           printf("%d \t", i);
+        }
+    }
+}
+
+// Formirati algoritam za izračunavanje sume brojeva 1 do N, gde
+// se N učitava
