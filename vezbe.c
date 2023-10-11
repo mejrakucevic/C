@@ -72,15 +72,31 @@
 // brojac parnih brojeva od 1 do 25
 
 
-int main() {
-    int  i;
-    printf("Parni brojevi od 1 do 25 su :\n");
-    for (i = 1; i <= 25; i++) {
-        if (i % 2 == 0) {
-           printf("%d \t", i);
-        }
-    }
-}
+// int main() {
+//     int  i;
+//     printf("Parni brojevi od 1 do 25 su :\n");
+//     for (i = 1; i <= 25; i++) {
+//         if (i % 2 == 0) {
+//            printf("%d \t", i);
+//         }
+//     }
+// }
 
 // Formirati algoritam za izračunavanje sume brojeva 1 do N, gde
 // se N učitava
+
+int main() {
+    int N;
+    int i;
+    float suma = 0;
+    printf("Unesite vas broj : ");
+    scanf("%d", &N);
+
+    for (i = 1; i<=N; i++) {
+        suma = suma + i;
+        printf("Suma brojeva je %.1lf", suma);
+    }
+
+
+
+}
