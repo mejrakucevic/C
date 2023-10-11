@@ -85,18 +85,24 @@
 
 // Formirati algoritam za izračunavanje sume brojeva 1 do N, gde
 // se N učitava
+// int main() {
+//     int N;
+//     int i;
+//     double suma = 0;
+//     printf("Unesite vas broj : ");
+//     scanf("%d", &N);
+
+//     for (i = 1; i<=N; i++) {
+//         suma = suma + i;
+//         printf("Suma brojeva je %.1lf", suma);
+//     }
+// }
+
+// Lista brojeva od 10 do 1
 int main() {
-    int N;
-    int i;
-    double suma = 0;
-    printf("Unesite vas broj : ");
-    scanf("%d", &N);
-
-    for (i = 1; i<=N; i++) {
-        suma = suma + i;
-        printf("Suma brojeva je %.1lf", suma);
+    int i = 10;
+    for (i = 10; i>=1; i--) {
+        printf("%d\n", i);
     }
-
-
 
 }
