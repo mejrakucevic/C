@@ -99,11 +99,32 @@
 // }
 
 // Lista brojeva od 10 do 1
-int main() {
-    int i = 10;
-    for (i = 10; i>=1; i--) {
-        printf("%d\n", i);
-    }
+// int main() {
+//     int i = 10;
+//     for (i = 10; i>=1; i--) {
+//         printf("%d\n", i);
+//     }
 
-    return 0;
+//     return 0;
+// }
+
+// Za unete brojeve A, B i C, treba rešiti linearnu jednačinu AX+B=C.
+int main() {
+    double A;
+    double B;
+    double C;
+    double x;
+
+    printf("Unesite A : ");
+    scanf("%lf", &A);
+
+    printf("Unesite B : ");
+    scanf("%lf", &B);
+
+    printf("Unesite C : ");
+    scanf("%lf", &C);
+
+    x = (C - B) / A;
+    printf("Rezultat jednacine AX + B = C jeste %.1lf", x);
+
 }
