@@ -4,6 +4,7 @@
 
 
 // Strukture podataka i algoritmi vezbanja
+// ------------------------------------------------------
 
 // 1. izracunati dijagonalu pravougaonika
 // float num1;
@@ -20,6 +21,7 @@
 //     printf("Dijagonala pravougaonika je %.1f", result);
 
 // }
+// ------------------------------------------------------
 
 // 2. izracunati sumu dva broja
 
@@ -54,9 +56,9 @@
 
 //     return 0;
 // }
+// ------------------------------------------------------
 
 // selekcije . razgraniti algoritam
-
 // int main() {
 //     int num;
 //     scanf("%d", &num);
@@ -67,11 +69,9 @@
 //         printf("You are not legal yet!");
 // } 
 // }
-
+// ------------------------------------------------------
 // ciklicne strukture - algoritmi
 // brojac parnih brojeva od 1 do 25
-
-
 // int main() {
 //     int  i;
 //     printf("Parni brojevi od 1 do 25 su :\n");
@@ -81,14 +81,14 @@
 //         }
 //     }
 // }
+// ------------------------------------------------------
 
 // Formirati algoritam za izračunavanje sume brojeva 1 do N, gde
 // se N učitava
-
 int main() {
     int N;
     int i;
-    float suma = 0;
+    double suma = 0;
     printf("Unesite vas broj : ");
     scanf("%d", &N);
 
