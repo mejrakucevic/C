@@ -97,6 +97,7 @@
 //         printf("Suma brojeva je %.1lf", suma);
 //     }
 // }
+// ------------------------------------------------------
 
 // Lista brojeva od 10 do 1
 // int main() {
@@ -107,24 +108,58 @@
 
 //     return 0;
 // }
+// ------------------------------------------------------
 
 // Za unete brojeve A, B i C, treba rešiti linearnu jednačinu AX+B=C.
-int main() {
-    double A;
-    double B;
-    double C;
-    double x;
+// int main() {
+//     double A;
+//     double B;
+//     double C;
+//     double x;
 
-    printf("Unesite A : ");
-    scanf("%lf", &A);
+//     printf("Unesite A : ");
+//     scanf("%lf", &A);
 
-    printf("Unesite B : ");
-    scanf("%lf", &B);
+//     printf("Unesite B : ");
+//     scanf("%lf", &B);
 
-    printf("Unesite C : ");
-    scanf("%lf", &C);
+//     printf("Unesite C : ");
+//     scanf("%lf", &C);
 
-    x = (C - B) / A;
-    printf("Rezultat jednacine AX + B = C jeste %.1lf", x);
+//     x = (C - B) / A;
+//     printf("Rezultat jednacine AX + B = C jeste %.1lf", x);
 
-}
+// }
+// ------------------------------------------------------
+
+// Za unetu temperaturu u Celzijusovim stepenima, izračunati temperaturu u Farenhajtima. 
+// int main() {
+//     double C;
+
+//     printf("Unesite temperaturu u Celzisujovim stepenima : ");
+//     scanf("%lf", &C);
+
+//     double F = (C * 1.8 + 32);
+//     printf("Temperatura u Farenhajtima je : %.1lf", F);
+
+//     return 0;
+// }
+// ------------------------------------------------------
+
+// Unosi se rezolucija slike u obliku dva cela broja koji označavaju broj piksela po širini i visini. Izračunati rezoluciju slike u megapikselima, ako znamo da megapiksel predstavlja milion piksela.
+// int main() {
+//    int sirina;
+//     int visina;
+//     printf("Pixel --> Megapixel Converter\n");
+
+//     printf("Unesite sirinu vase slike : ");
+//     scanf("%d", &sirina);
+
+//      printf("Unesite visinu vase slike : ");
+//     scanf("%d", &visina);
+
+//     double megaS = (visina * sirina) / 1000000.0;
+//      printf("Dimenzija vase slike u megapixelima jesu : %.2lf MP \n", megaS);
+
+//      return 0;
+// }
