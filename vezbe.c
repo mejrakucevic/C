@@ -21,7 +21,7 @@
 //     printf("Dijagonala pravougaonika je %.1f", result);
 
 // }
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
 
 // 2. izracunati sumu dva broja
 
@@ -40,7 +40,8 @@
 
 //      return 0;
 // }
-// --------------------------------------------
+// -----------------------------------------------------------------------------------------------
+
 // 3. Izracunati kvadrat upisanog broja
 
 // float broj;
@@ -56,7 +57,7 @@
 
 //     return 0;
 // }
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
 
 // selekcije . razgraniti algoritam
 // int main() {
@@ -69,7 +70,7 @@
 //         printf("You are not legal yet!");
 // } 
 // }
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
 // ciklicne strukture - algoritmi
 // brojac parnih brojeva od 1 do 25
 // int main() {
@@ -81,7 +82,7 @@
 //         }
 //     }
 // }
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
 
 // Formirati algoritam za izračunavanje sume brojeva 1 do N, gde
 // se N učitava
@@ -97,7 +98,7 @@
 //         printf("Suma brojeva je %.1lf", suma);
 //     }
 // }
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
 
 // Lista brojeva od 10 do 1
 // int main() {
@@ -108,7 +109,7 @@
 
 //     return 0;
 // }
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
 
 // Za unete brojeve A, B i C, treba rešiti linearnu jednačinu AX+B=C.
 // int main() {
@@ -130,7 +131,7 @@
 //     printf("Rezultat jednacine AX + B = C jeste %.1lf", x);
 
 // }
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
 
 // Za unetu temperaturu u Celzijusovim stepenima, izračunati temperaturu u Farenhajtima. 
 // int main() {
@@ -144,7 +145,7 @@
 
 //     return 0;
 // }
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------
 
 // Unosi se rezolucija slike u obliku dva cela broja koji označavaju broj piksela po širini i visini. Izračunati rezoluciju slike u megapikselima, ako znamo da megapiksel predstavlja milion piksela.
 // int main() {
@@ -162,4 +163,41 @@
 //      printf("Dimenzija vase slike u megapixelima jesu : %.2lf MP \n", megaS);
 
 //      return 0;
+// }
+// -----------------------------------------------------------------------------------------------------------
+
+// Unosi se broj casova koje ucenici imaju tog dana. Izracunati koliko sati i minuta djaci provedu na nastavi, ako znamo da cas traje 45min
+// int main() {
+
+//     int brCasova;
+//     int satImin;
+//     printf("Unesite broj casova: ");
+//     scanf("%d", &brCasova);
+
+//     switch(brCasova) {
+//         case 1: 
+//         satImin = 45;
+//         printf("Proveli ste %d minuta na nastavi.", satImin);
+//         break;
+//          case 2: 
+//         satImin = 90;
+//         printf("Proveli ste %d minuta, tj. 1 sat i 10 minuta na nastavi.", satImin);
+//         break;
+//          case 3: 
+//         satImin = 135;
+//         printf("Proveli ste %d minuta, tj. 2 sata i 15 minuta na nastavi.", satImin);
+//         break;
+//          case 4: 
+//         satImin = 180;
+//         printf("Proveli ste %d minuta, tj. 3 sata na nastavi.", satImin);
+//         break;
+//          case 5: 
+//         satImin = 225;
+//         printf("Proveli ste %d minuta, tj. 3 sata i 45min na nastavi.", satImin);
+//         break;
+//          case 6: 
+//         satImin = 280;
+//         printf("Proveli ste %d minuta, tj. 4 sata i 40 minuta na nastavi.", satImin);
+//         break;
+//     }
 // }
