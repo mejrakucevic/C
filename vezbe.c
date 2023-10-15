@@ -164,7 +164,6 @@
 
 //      return 0;
 // }
-// -----------------------------------------------------------------------------------------------------------
 
 // Unosi se broj casova koje ucenici imaju tog dana. Izracunati koliko sati i minuta djaci provedu na nastavi, ako znamo da cas traje 45min
 // int main() {
@@ -201,3 +200,23 @@
 //         break;
 //     }
 // }
+
+// -----------------------------------------------------------------------------------------------------------
+
+// Izracunati rezultat deljenja brojeva X i Y, zaokruzen na dve decimale
+
+// int main() {
+//     double x;
+//     double y;
+//     double rezultat;
+
+//     printf("Unesite prvi broj: ");
+//     scanf("%lf", &x);
+
+//     printf("Unesite drugi broj: ");
+//     scanf("%lf", &y);
+//     rezultat = x / y; 
+//     printf("Rezultat deljenja brojeva je: %.2lf", rezultat);
+
+// }
+
