@@ -250,3 +250,15 @@
 //     return 0;
 
 // }
+
+// -----------------------------------------------------------------------------------------------------------
+
+// Uneto veliko slovo engleske abecede, treba konvertovati u malo slovo, npr. za uneto "R" treba da se dobije "r".
+
+// int main() {
+//     char X, upperX;
+//     printf("Unesite veliko slovo engleske abecede : ");
+//     scanf("%c", &X);
+//     upperX = tolower(X);
+//     printf("Malo slovo : %c", upperX);
+// }
