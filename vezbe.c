@@ -220,3 +220,33 @@
 
 // }
 
+// -----------------------------------------------------------------------------------------------------------
+
+// Unesi se neka godina, GOD, kao ceo broj. Ispisati u kom veku pripada.
+
+// int main() {
+//     int GOD;
+//     int VEK;
+//     printf("Kojem veku pripada X godina?\n");
+//     printf("Unesite godinu: ");
+//     scanf("%d", &GOD);
+
+//     if (GOD >= 1601 && GOD <= 1700) {
+//         VEK = 17;
+//         printf("Godina %d je %d. vek!", GOD, VEK);
+//     } else if (GOD >= 1701 && GOD <= 1800) {
+//         VEK = 18;
+//         printf("Godina %d je %d. vek!", GOD, VEK);
+//     }  else if (GOD >= 1801 && GOD <= 1900) {
+//         VEK = 19;
+//         printf("Godina %d je %d. vek!", GOD, VEK);
+//     }  else if (GOD >= 1901 && GOD <= 2000) {
+//         VEK = 20;
+//         printf("Godina %d je %d. vek!", GOD, VEK); 
+//     }  else if (GOD >= 2001 && GOD <= 2100) {
+//         VEK = 21;
+//         printf("Godina %d je %d. vek!", GOD, VEK);
+//     } 
+//     return 0;
+
+// }
