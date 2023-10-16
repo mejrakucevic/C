@@ -301,8 +301,28 @@
 //      }
      
 //      printf("%.1lf", zbir);
+//      return 0;
 // }
 
+// -----------------------------------------------------------------------------------------------------------
+
+// Unosi se veličina nekog fajla u bajtovima B. Treba izračunati veličinu tog fajla u kibibajtima i mebibajtima i ispisati rezultat, zaokružen na dve, odnosno tri decimale. // 1 kb = 1024B i 1 mb = 1024KB
+
+// int main() {
+//     double B;
+//     double kiloB;
+//     double megaB;
+
+//     printf("Bajt --> Kilobajt i Megabajt\n");
+//     printf("Unesite velicinu u Bajtu: ");
+//     scanf("%lf", &B);
+
+//     kiloB = B / 1000;
+//     megaB = B / 1000000;
+//     printf("Bajt --> Kilobajt = %.6lf\n", kiloB);
+//     printf("Bajt --> Megabajt = %.6lf", megaB);
+
+// }
 
 
 
