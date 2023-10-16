@@ -280,4 +280,29 @@
 // }
 //  }
 
+// -----------------------------------------------------------------------------------------------------------
+
+// Unose se tri broja A, B i C. Izračunati zbir onih koji su veći od nule.
+
+// int main() {
+//      double A, B, C;
+//      double zbir;
+//      printf("Unesite 3 broja : ");
+//      scanf("%lf %lf %lf", &A, &B, &C);
+    
+//      if (A >= 0) {
+//         zbir += A;
+//      }
+//      if (B >= 0) {
+//         zbir += B;
+//      }
+//      if (C >= 0) {
+//         zbir += C;
+//      }
+     
+//      printf("%.1lf", zbir);
+// }
+
+
+
 
