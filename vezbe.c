@@ -262,3 +262,22 @@
 //     upperX = tolower(X);
 //     printf("Malo slovo : %c", upperX);
 // }
+
+// -----------------------------------------------------------------------------------------------------------
+// Za uneti celi broj X, proveriti i ispisati da li je paran ili neparan.
+
+// int main() {
+//     int X;
+//     printf("Provera parnosti broja.\n");
+
+//     printf("Unesite celi broj: ");
+//     scanf("%d", &X);
+
+//     if (X % 2 == 0) {
+//         printf("Broj je paran!");
+//     } else {
+//         printf("Broj nije paran!");
+// }
+//  }
+
+
