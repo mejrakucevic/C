@@ -359,20 +359,20 @@
 //     double ocena1, ocena2, ocena3, ocena4;
 
 //      printf("Unesite prvu ocenu: ");
-//     scanf("%lf", &ocena1);
+//      scanf("%lf", &ocena1);
 
 //     printf("Unesite drugu ocenu: ");
 //     scanf("%lf", &ocena2);
 
 //      printf("Unesite trecu ocenu: ");
-//     scanf("%lf", &ocena3);
+//      scanf("%lf", &ocena3);
 
-//      printf("Unesite cetvrtu ocenu: ")
+//      printf("Unesite cetvrtu ocenu: ");
 //      scanf("%lf", &ocena4);
 
 //     double aritmeticka = (ocena1 + ocena2 + ocena3 + ocena4) / 4;
 //     double geometrijska2 = sqrt(sqrt(ocena1 * ocena2 * ocena3 * ocena4));
-//      double harmonijska = 4 / (1/ocena1 + 1/ocena2 + 1/ocena3 + 1/ocena4);
+//     double harmonijska = 4 / (1/ocena1 + 1/ocena2 + 1/ocena3 + 1/ocena4);
 
 //     if (aritmeticka > geometrijska2 && aritmeticka > harmonijska) {
 //          printf("Najbolji je prosek po aritmetickoj sredini!");
