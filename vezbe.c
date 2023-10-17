@@ -324,5 +324,66 @@
 
 // }
 
+// -----------------------------------------------------------------------------------------------------------
+
+// Unose se tri broja A,B i C. Otkriti i ispisati najmanji broj
+
+// int main() {
+//     int A;
+//     int B;
+//     int C;
+
+//     printf("Unesite prvi broj: ");
+//     scanf("%d", &A);
+
+//     printf("Unesite drugi broj: ");
+//     scanf("%d", &B);
+
+//     printf("Unesite treci broj: ");
+//     scanf("%d", &C);
+
+//     if (A < B && A < C) {
+//         printf("%d je najmanji!", A);
+//     } else if (B < A && B < C) {
+//         printf("%d je najmanji!", B);
+//     } else if (C < A && C < B) {
+//         printf("%d je najmanji!", C);
+//     }
+// }
+
+// -----------------------------------------------------------------------------------------------------------
+
+// Za unete 4 ocene proveriti da li je za učenika bolji prosek koji se računa po aritmetičkoj, geometrijskoj ili harmonijskoj sredini. Aritmetička sredina se dobija kao količnik zbira N vrednosti i njihovog broja N. Geometrijska kao N-ti koren proizvoda N vrednosti (postoji razlog zašto imamo baš 4 ocene). Harmonijsku sredinu računamo kao količnik broja vrednosti N i zbira N recipročnih zadatih vrednosti. Kako se racuna N-ti koren - posto je nti koren po defaultu 2 onda dva put stavimo sqrt da bi bio 4
+
+//  int main() {
+//     double ocena1, ocena2, ocena3, ocena4;
+
+//      printf("Unesite prvu ocenu: ");
+//     scanf("%lf", &ocena1);
+
+//     printf("Unesite drugu ocenu: ");
+//     scanf("%lf", &ocena2);
+
+//      printf("Unesite trecu ocenu: ");
+//     scanf("%lf", &ocena3);
+
+//      printf("Unesite cetvrtu ocenu: ")
+//      scanf("%lf", &ocena4);
+
+//     double aritmeticka = (ocena1 + ocena2 + ocena3 + ocena4) / 4;
+//     double geometrijska2 = sqrt(sqrt(ocena1 * ocena2 * ocena3 * ocena4));
+//      double harmonijska = 4 / (1/ocena1 + 1/ocena2 + 1/ocena3 + 1/ocena4);
+
+//     if (aritmeticka > geometrijska2 && aritmeticka > harmonijska) {
+//          printf("Najbolji je prosek po aritmetickoj sredini!");
+//      } else if (harmonijska > geometrijska2 && harmonijska > aritmeticka) {
+//          printf("Najbolji je prosek po harmonijskoj sredini!");
+//      } else if (geometrijska2 > aritmeticka && geometrijska2 > harmonijska) {
+//          printf("Najbolji je prosek po geometrijskoj sredini!");
+//      } else ("nzm");
+//  }
+
+// -----------------------------------------------------------------------------------------------------------
+
 
 
