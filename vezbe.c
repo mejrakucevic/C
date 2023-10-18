@@ -385,5 +385,24 @@
 
 // -----------------------------------------------------------------------------------------------------------
 
+// Ako se učenik loše ponaša na časovima (ponašanje se unosi kao broj od 1 do 10, sve iznad 5 je dobro ponašanje), i ne zna gradivo (ocena na kontrolnom je manja od 4), profesor će ga izvesti pred tablu i oceniti ga. Ako se učenik loše ponaša i zna gradivo, biće isteran sa časa. Ako se učenik dobro ponaša, profesor će ga pohvaliti. Unosi se ponašanje, a ako je potrebno i ocena sa kontrolnog. Treba ispisati poruku "ISPITATI", "IZBACITI" ili "POHVALITI".
 
+int main() {
 
+    int ponasanje;
+    int ocena;
+
+    printf("Uneti ponasanje od 1-10: ");
+    scanf("%d", &ponasanje);
+
+    printf("Uneti ocenu: ");
+    scanf("%d", &ocena);
+
+    if (ponasanje <= 5 && ocena < 4) {
+        printf("Ispitati");
+    } else if (ponasanje <= 5 && ocena > 4) {
+        printf("Izbaciti");
+    } else if (ponasanje >= 5) {
+        printf("Pohvaliti");
+    }
+}
