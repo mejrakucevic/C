@@ -411,20 +411,19 @@
 // Npr. ako su A=5.3, B=7.6 i X=0.3, onda se ispisuju brojevi 5.3 5.6 5.9 6.2 6.5 6.8 7.1 i 7.4 .
 
 int main() {
-    int A;
+    float A;
     printf("Unesite prvi broj : ");
-    scanf("%d", &A);
-    int B;
+    scanf("%f", &A);
+    float B;
     printf("Unesite drugi broj : ");
-    scanf("%d", &B);
-    int X;
+    scanf("%f", &B);
+    float X;
     printf("Unesite broj za razmak : ");
-    scanf("%d", &X);
+    scanf("%f", &X);
 
     for (float brojevi = A; brojevi <= B; brojevi+= X) {
-        printf("%.2f", brojevi);
-     } // printf("\n");
-
+        printf("%.1f ", brojevi);
+     } printf("\n");
 
     return 0;
 }
