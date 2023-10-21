@@ -4,7 +4,7 @@
 
 
 // Strukture podataka i algoritmi vezbanja
-// ------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------------
 
 // 1. izracunati dijagonalu pravougaonika
 // float num1;
@@ -21,7 +21,7 @@
 //     printf("Dijagonala pravougaonika je %.1f", result);
 
 // }
-// ---------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 
 // 2. izracunati sumu dva broja
 
@@ -40,7 +40,7 @@
 
 //      return 0;
 // }
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------
 
 // 3. Izracunati kvadrat upisanog broja
 
@@ -57,7 +57,7 @@
 
 //     return 0;
 // }
-// ---------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 
 // selekcije . razgraniti algoritam
 // int main() {
@@ -70,7 +70,7 @@
 //         printf("You are not legal yet!");
 // } 
 // }
-// ---------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 // ciklicne strukture - algoritmi
 // brojac parnih brojeva od 1 do 25
 // int main() {
@@ -82,7 +82,7 @@
 //         }
 //     }
 // }
-// ---------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 
 // Formirati algoritam za izračunavanje sume brojeva 1 do N, gde
 // se N učitava
@@ -98,7 +98,7 @@
 //         printf("Suma brojeva je %.1lf", suma);
 //     }
 // }
-// ---------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 
 // Lista brojeva od 10 do 1
 // int main() {
@@ -109,7 +109,7 @@
 
 //     return 0;
 // }
-// ---------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 
 // Za unete brojeve A, B i C, treba rešiti linearnu jednačinu AX+B=C.
 // int main() {
@@ -131,7 +131,7 @@
 //     printf("Rezultat jednacine AX + B = C jeste %.1lf", x);
 
 // }
-// ---------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 
 // Za unetu temperaturu u Celzijusovim stepenima, izračunati temperaturu u Farenhajtima. 
 // int main() {
@@ -145,7 +145,7 @@
 
 //     return 0;
 // }
-// ---------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 
 // Unosi se rezolucija slike u obliku dva cela broja koji označavaju broj piksela po širini i visini. Izračunati rezoluciju slike u megapikselima, ako znamo da megapiksel predstavlja milion piksela.
 // int main() {
@@ -201,7 +201,7 @@
 //     }
 // }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Izracunati rezultat deljenja brojeva X i Y, zaokruzen na dve decimale
 
@@ -220,7 +220,7 @@
 
 // }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Unesi se neka godina, GOD, kao ceo broj. Ispisati u kom veku pripada.
 
@@ -251,7 +251,7 @@
 
 // }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Uneto veliko slovo engleske abecede, treba konvertovati u malo slovo, npr. za uneto "R" treba da se dobije "r".
 
@@ -263,7 +263,7 @@
 //     printf("Malo slovo : %c", upperX);
 // }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 // Za uneti celi broj X, proveriti i ispisati da li je paran ili neparan.
 
 // int main() {
@@ -280,7 +280,7 @@
 // }
 //  }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Unose se tri broja A, B i C. Izračunati zbir onih koji su veći od nule.
 
@@ -304,7 +304,7 @@
 //      return 0;
 // }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Unosi se veličina nekog fajla u bajtovima B. Treba izračunati veličinu tog fajla u kibibajtima i mebibajtima i ispisati rezultat, zaokružen na dve, odnosno tri decimale. // 1 kb = 1024B i 1 mb = 1024KB
 
@@ -324,7 +324,7 @@
 
 // }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Unose se tri broja A,B i C. Otkriti i ispisati najmanji broj
 
@@ -351,7 +351,7 @@
 //     }
 // }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Za unete 4 ocene proveriti da li je za učenika bolji prosek koji se računa po aritmetičkoj, geometrijskoj ili harmonijskoj sredini. Aritmetička sredina se dobija kao količnik zbira N vrednosti i njihovog broja N. Geometrijska kao N-ti koren proizvoda N vrednosti (postoji razlog zašto imamo baš 4 ocene). Harmonijsku sredinu računamo kao količnik broja vrednosti N i zbira N recipročnih zadatih vrednosti. Kako se racuna N-ti koren - posto je nti koren po defaultu 2 onda dva put stavimo sqrt da bi bio 4
 
@@ -383,7 +383,7 @@
 //      } else ("nzm");
 //  }
 
-// -----------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Ako se učenik loše ponaša na časovima (ponašanje se unosi kao broj od 1 do 10, sve iznad 5 je dobro ponašanje), i ne zna gradivo (ocena na kontrolnom je manja od 4), profesor će ga izvesti pred tablu i oceniti ga. Ako se učenik loše ponaša i zna gradivo, biće isteran sa časa. Ako se učenik dobro ponaša, profesor će ga pohvaliti. Unosi se ponašanje, a ako je potrebno i ocena sa kontrolnog. Treba ispisati poruku "ISPITATI", "IZBACITI" ili "POHVALITI".
 
@@ -407,23 +407,43 @@
 //     }
 // }
 
+// ----------------------------------------------------------------------------------------------------------------------------------
+
 // Ispisati sve brojeve od A do B, gde se A i B unose, u razmacima od po X.
 // Npr. ako su A=5.3, B=7.6 i X=0.3, onda se ispisuju brojevi 5.3 5.6 5.9 6.2 6.5 6.8 7.1 i 7.4 .
 
-int main() {
-    float A;
-    printf("Unesite prvi broj : ");
-    scanf("%f", &A);
-    float B;
-    printf("Unesite drugi broj : ");
-    scanf("%f", &B);
-    float X;
-    printf("Unesite broj za razmak : ");
-    scanf("%f", &X);
+// int main() {
+//     float A;
+//     printf("Unesite prvi broj : ");
+//     scanf("%f", &A);
+//     float B;
+//     printf("Unesite drugi broj : ");
+//     scanf("%f", &B);
+//     float X;
+//     printf("Unesite broj za razmak : ");
+//     scanf("%f", &X);
 
-    for (float brojevi = A; brojevi <= B; brojevi+= X) {
-        printf("%.1f ", brojevi);
-     } printf("\n");
+//     for (float brojevi = A; brojevi <= B; brojevi+= X) {
+//         printf("%.1f", brojevi);
+//      } printf("\n");
 
-    return 0;
-}
+//     return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Unose se dva cela broja, A i B. Napraviti algoritam koji će ispisati sve brojeve od A do B korišćenjem ciklusa sa preduslovom.
+
+// int main() {
+//     int A;
+//     printf("Unesite prvi broj : ");
+//     scanf("%d", &A);
+//     int B;
+//     printf("Unesite drugi broj : ");
+//     scanf("%d", &B);
+
+//     for (int i = A; i <= B; i++) {
+//         printf("%d\n", i);
+//     }
+//     return 0;
+// }
