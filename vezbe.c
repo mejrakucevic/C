@@ -387,22 +387,44 @@
 
 // Ako se učenik loše ponaša na časovima (ponašanje se unosi kao broj od 1 do 10, sve iznad 5 je dobro ponašanje), i ne zna gradivo (ocena na kontrolnom je manja od 4), profesor će ga izvesti pred tablu i oceniti ga. Ako se učenik loše ponaša i zna gradivo, biće isteran sa časa. Ako se učenik dobro ponaša, profesor će ga pohvaliti. Unosi se ponašanje, a ako je potrebno i ocena sa kontrolnog. Treba ispisati poruku "ISPITATI", "IZBACITI" ili "POHVALITI".
 
+// int main() {
+
+//     int ponasanje;
+//     int ocena;
+
+//     printf("Uneti ponasanje od 1-10: ");
+//     scanf("%d", &ponasanje);
+
+//     printf("Uneti ocenu: ");
+//     scanf("%d", &ocena);
+
+//     if (ponasanje <= 5 && ocena < 4) {
+//         printf("Ispitati");
+//     } else if (ponasanje <= 5 && ocena > 4) {
+//         printf("Izbaciti");
+//     } else if (ponasanje >= 5) {
+//         printf("Pohvaliti");
+//     }
+// }
+
+// Ispisati sve brojeve od A do B, gde se A i B unose, u razmacima od po X.
+// Npr. ako su A=5.3, B=7.6 i X=0.3, onda se ispisuju brojevi 5.3 5.6 5.9 6.2 6.5 6.8 7.1 i 7.4 .
+
 int main() {
+    int A;
+    printf("Unesite prvi broj : ");
+    scanf("%d", &A);
+    int B;
+    printf("Unesite drugi broj : ");
+    scanf("%d", &B);
+    int X;
+    printf("Unesite broj za razmak : ");
+    scanf("%d", &X);
 
-    int ponasanje;
-    int ocena;
+    for (float brojevi = A; brojevi <= B; brojevi+= X) {
+        printf("%.2f", brojevi);
+     } // printf("\n");
 
-    printf("Uneti ponasanje od 1-10: ");
-    scanf("%d", &ponasanje);
 
-    printf("Uneti ocenu: ");
-    scanf("%d", &ocena);
-
-    if (ponasanje <= 5 && ocena < 4) {
-        printf("Ispitati");
-    } else if (ponasanje <= 5 && ocena > 4) {
-        printf("Izbaciti");
-    } else if (ponasanje >= 5) {
-        printf("Pohvaliti");
-    }
+    return 0;
 }
