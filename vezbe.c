@@ -424,7 +424,7 @@
 //     scanf("%f", &X);
 
 //     for (float brojevi = A; brojevi <= B; brojevi+= X) {
-//         printf("%.1f", brojevi);
+//         printf("%.1f ", brojevi);
 //      } printf("\n");
 
 //     return 0;
