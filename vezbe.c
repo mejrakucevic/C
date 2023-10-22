@@ -470,12 +470,18 @@
 
 // Unose se celi brojevi dok se ne unese 0. Izračunati i ispisati zbir recipročnih unetih brojeva. Npr. za unete brojeve 5, 3 i 9, dobijamo zbir 1/5 + 1/3 + 1/9.
 
-// int main() {
-//     double A, B, C;
-//     printf("Unesite 3 broja: ");
-//     scanf("%lf %lf %lf", &A, &B, &C);
+int main() {
+    double A, B, C;
+    printf("Unesite 3 broja: ");
+    scanf("%lf %lf %lf", &A, &B, &C);
 
-//     double brojevi = 1/A + 1/B + 1/C;
-//     printf("%lf", brojevi);
+    double brojevi = 0;
+    if (A  == 0 || B == 0 || C == 0) {
+        printf("Unesite broj drugaciji od 0");
+    } else {
+        brojevi = 1 / A + 1 / B + 1 / C;
+        printf("Zbir reciprocnih brojeva je: %f\n", brojevi);
 
-// }
+    }
+
+}
