@@ -448,18 +448,34 @@
 //     return 0;
 // }
 
+// ----------------------------------------------------------------------------------------------------------------------------------
+
 // Ispis faktorijala unetog broja
 
-int main() {
-    int broj;
-    printf("Unesite broj: ");
-    scanf("%d", &broj);
+// int main() {
+//     int broj;
+//     printf("Unesite broj: ");
+//     scanf("%d", &broj);
 
-    int faktorijal = 1;
-    for (int f = broj; f >= 1; f--) {
-        faktorijal *= f;
-    }
-    printf("Faktorijal broja %d! jeste %d\n", broj, faktorijal);
+//     int faktorijal = 1;
+//     for (int f = broj; f >= 1; f--) {
+//         faktorijal *= f;
+//     }
+//     printf("Faktorijal broja %d! jeste %d\n", broj, faktorijal);
 
-    return 0;
-}
+//     return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Unose se celi brojevi dok se ne unese 0. Izračunati i ispisati zbir recipročnih unetih brojeva. Npr. za unete brojeve 5, 3 i 9, dobijamo zbir 1/5 + 1/3 + 1/9.
+
+// int main() {
+//     double A, B, C;
+//     printf("Unesite 3 broja: ");
+//     scanf("%lf %lf %lf", &A, &B, &C);
+
+//     double brojevi = 1/A + 1/B + 1/C;
+//     printf("%lf", brojevi);
+
+// }
