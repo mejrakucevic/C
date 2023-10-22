@@ -450,15 +450,16 @@
 
 // Ispis faktorijala unetog broja
 
-// int main() {
-//     int broj;
-//     printf("Unesite broj: ");
-//     scanf("%d", &broj);
-    
-//     int faktorijal;
-//     for (int f = broj; f >= 1; f--) {
-//         int faktorijal = f;
-//         printf("%d\n", faktorijal);       
-//     }
-//     return 0;
-// }
+int main() {
+    int broj;
+    printf("Unesite broj: ");
+    scanf("%d", &broj);
+
+    int faktorijal = 1;
+    for (int f = broj; f >= 1; f--) {
+        faktorijal *= f;
+    }
+    printf("Faktorijal broja %d! jeste %d\n", broj, faktorijal);
+
+    return 0;
+}
