@@ -412,23 +412,23 @@
 // Ispisati sve brojeve od A do B, gde se A i B unose, u razmacima od po X.
 // Npr. ako su A=5.3, B=7.6 i X=0.3, onda se ispisuju brojevi 5.3 5.6 5.9 6.2 6.5 6.8 7.1 i 7.4 .
 
-int main() {
-    float A;
-    printf("Unesite prvi broj : ");
-    scanf("%f", &A);
-    float B;
-    printf("Unesite drugi broj : ");
-    scanf("%f", &B);
-    float X;
-    printf("Unesite broj za razmak : ");
-    scanf("%f", &X);
+// int main() {
+//     float A;
+//     printf("Unesite prvi broj : ");
+//     scanf("%f", &A);
+//     float B;
+//     printf("Unesite drugi broj : ");
+//     scanf("%f", &B);
+//     float X;
+//     printf("Unesite broj za razmak : ");
+//     scanf("%f", &X);
 
-    for (float brojevi = A; brojevi <= B; brojevi+= X) {
-        printf("%.1f ", brojevi);
-     } printf("\n");
+//     for (float brojevi = A; brojevi <= B; brojevi+= X) {
+//         printf("%.1f ", brojevi);
+//      } printf("\n");
 
-    return 0;
-}
+//     return 0;
+// }
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -444,6 +444,21 @@ int main() {
 
 //     for (int i = A; i <= B; i++) {
 //         printf("%d\n", i);
+//     }
+//     return 0;
+// }
+
+// Ispis faktorijala unetog broja
+
+// int main() {
+//     int broj;
+//     printf("Unesite broj: ");
+//     scanf("%d", &broj);
+    
+//     int faktorijal;
+//     for (int f = broj; f >= 1; f--) {
+//         int faktorijal = f;
+//         printf("%d\n", faktorijal);       
 //     }
 //     return 0;
 // }
