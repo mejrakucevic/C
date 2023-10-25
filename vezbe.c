@@ -552,5 +552,16 @@
 //     return 0; }
 // 
 
+// ----------------------------------------------------------------------------------------------------------------------------------
+
 // Unosi se redni broj dana u nedelji (celi broj od 1 do 7). Proveriti da li je u pitanju radni dan ili vikend.
 
+// int main() {
+//     int dan;
+//     printf("Unesite redni broj vaseg dana u nedelji: ");
+
+//     scanf("%d", &dan);
+//     if (dan == 6 || dan == 7) {
+//         printf("Vikend je!");
+//     } else printf("Radni dan je!");
+// }
