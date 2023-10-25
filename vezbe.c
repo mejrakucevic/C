@@ -502,16 +502,55 @@
 // }
 
 // ----------------------------------------------------------------------------------------------------------------------------------
+// Prestupnost godine
 
+// int main() {
+//     int godina;
+//     printf("Provera prestupnosti godine.\nUnesite godinu: ");
+//     scanf("%d", &godina);
 
-int main() {
-    int godina;
-    printf("Provera prestupnosti godine.\nUnesite godinu: ");
-    scanf("%d", &godina);
+//     if (godina % 4 == 0 && godina % 100 != 0) {
+//         printf("Godina je prestupna!");
+//     } else if (godina % 400 == 0) {
+//         printf("Godina je prestupna!");
+//     } else printf("Godina nije prestupna!");
+// }         return 0;
 
-    if (godina % 4 == 0 && godina % 100 != 0) {
-        printf("Godina je prestupna!");
-    } else if (godina % 400 == 0) {
-        printf("Godina je prestupna!");
-    } else printf("Godina nije prestupna!");
-}
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Unose se celi brojevi dok se ne unese 0. Izračunati i ispisati prosek unetih parnih brojeva.
+
+// float = %f, double = %lf
+
+// int main() {
+//     float A, B, C;
+//     printf("Unesite brojeve : ");
+//     scanf("%f %f %f", &A, &B, &C);
+
+//     int delilac = 0;
+//     float zbir = 0;
+
+//     if ((int)A % 2 == 0) {
+//         zbir += A;
+//         delilac++;
+//     }
+
+//      if ((int)B % 2 == 0) {
+//         zbir += B;
+//         delilac++;
+//     }
+
+//     if ((int)C % 2 == 0) {
+//         zbir += C;
+//         delilac++;
+//     }
+
+//     if (delilac != 0) {
+//         float prosek = zbir / delilac;
+//         printf("Prosek je %.2f", prosek);
+//     }    
+//     return 0; }
+// 
+
+// Unosi se redni broj dana u nedelji (celi broj od 1 do 7). Proveriti da li je u pitanju radni dan ili vikend.
+
