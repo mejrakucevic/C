@@ -489,14 +489,29 @@
 // ----------------------------------------------------------------------------------------------------------------------------------
 
 // Ispisati sve delioce unetog celog pozitivnog broja X.
-int main() {
-    int X;
-    printf("Unesite celi broj X: ");
-    scanf("%d", &X);
+// int main() {
+//     int X;
+//     printf("Unesite celi broj X: ");
+//     scanf("%d", &X);
 
-    for (int i = 1; i <= X; i++) {
-        if (X % i == 0) {
-            printf("%d ", i);
-        }
-    } return 0;
+//     for (int i = 1; i <= X; i++) {
+//         if (X % i == 0) {
+//             printf("%d ", i);
+//         }
+//     } return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+
+int main() {
+    int godina;
+    printf("Provera prestupnosti godine.\nUnesite godinu: ");
+    scanf("%d", &godina);
+
+    if (godina % 4 == 0 && godina % 100 != 0) {
+        printf("Godina je prestupna!");
+    } else if (godina % 400 == 0) {
+        printf("Godina je prestupna!");
+    } else printf("Godina nije prestupna!");
 }
