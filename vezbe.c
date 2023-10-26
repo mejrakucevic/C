@@ -565,3 +565,41 @@
 //         printf("Vikend je!");
 //     } else printf("Radni dan je!");
 // }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Za unetu numeričku ocenu učenika (celi broj od 1 do 5), ispisati njeno značenje (5 - "Odličan", 4 - "Vrlo dobar", 3 - "Dobar", 2 - "Dovoljan" i 1 - "Nedovoljan").
+
+// int main() {
+//     int ocena;
+
+//     printf("Unesite ocenu: ");
+//     scanf("%d", &ocena);
+
+//     switch (ocena) {
+//         case 1:
+//             printf("Odlican!");
+//             break;
+
+//         case 2:
+//             printf("Vrlo dobar");
+//             break;
+
+//         case 3:
+//             printf("Dobar");
+//             break;
+
+//         case 4:
+//             printf("Dovoljan");
+//             break;
+
+//         case 5:
+//             printf("Ne dovoljan");
+//             break;
+
+//         default:
+//             printf("Nepoznata ocena");
+//     }
+
+//     return 0;
+// }
