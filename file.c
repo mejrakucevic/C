@@ -19,19 +19,41 @@
 //     return (x > y) ? x : y;
 // }
 
-
+// nested loops
 int main() {
 
-  char string1[] ="Mejra";
-  char string2[] = "Kucevic";
+    int rows;
+    int columns;
+    int symbol;
 
-  strupr(string1);
-  strcpy(string1, string2);
-  strrev(string1);
+    printf("\nEnter # of rows: ");
+    scanf("%d", &rows);
 
-  int result = strlen(string1);
+    printf("Enter # of columns: ");
+    scanf("%d", &columns);
 
-  printf("%d", result);
+    scanf("%c");
+
+    printf("Enter a symbol to use: ");
+    scanf("%c", &symbol);
+
+    for (int i = 1; i <= rows; i++) {
+        for(int j = 1; j <= columns; j++) {
+            printf("%c", symbol);
+
+        } printf("\n");
+    }
+
+//   char string1[] ="Mejra";
+//   char string2[] = "Kucevic";
+
+//   strupr(string1);
+//   strcpy(string1, string2);
+//   strrev(string1);
+
+//   int result = strlen(string1);
+
+//   printf("%d", result);
   
 
     // int max = findMax(3, 4);
