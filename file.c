@@ -51,9 +51,6 @@ int main() {
         printf("\n");
     }
 
-
-
-
     // arrays  
     // double prices[] = {5.0, 10.0, 15.0, 25, 20.0, 30.0};
 
