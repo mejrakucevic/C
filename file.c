@@ -19,30 +19,74 @@
 //     return (x > y) ? x : y;
 // }
 
-// nested loops
+
 int main() {
+    // 2d arrays - an array, where each element is an entire array
+    //             useful for matrix, grid, or tables of data
 
-    int rows;
-    int columns;
-    int symbol;
+    // matrica 3x3
+     int numbers[3][3]; 
+    //     {1, 2, 3},
+    //     {4, 5, 6}
+    //     }; 
 
-    printf("\nEnter # of rows: ");
-    scanf("%d", &rows);
+    int rows = sizeof(numbers)/sizeof(numbers[0]);
+    int columns = sizeof(numbers[0])/sizeof(numbers[0][0]);
 
-    printf("Enter # of columns: ");
-    scanf("%d", &columns);
+    numbers[0][0] = 1;
+    numbers[0][1] = 2;
+    numbers[0][2] = 3;
+    numbers[1][0] = 4;
+    numbers[1][1] = 5;
+    numbers[1][2] = 6;
+    numbers[2][0] = 7;
+    numbers[2][1] = 8;
+    numbers[2][2] = 9;
 
-    scanf("%c");
-
-    printf("Enter a symbol to use: ");
-    scanf("%c", &symbol);
-
-    for (int i = 1; i <= rows; i++) {
-        for(int j = 1; j <= columns; j++) {
-            printf("%c", symbol);
-
-        } printf("\n");
+    for(int i = 0; i < rows;  i++) { // 2rows
+        for (int j = 0; j < columns; j++) // 3columns
+        {
+            printf("%d ", numbers[i][j]);
+        }
+        printf("\n");
     }
+
+
+
+
+    // arrays  
+    // double prices[] = {5.0, 10.0, 15.0, 25, 20.0, 30.0};
+
+    
+
+    // for (int i = 0; i < sizeof(prices)/sizeof(prices[0]); i++) {
+    //     printf("$%.2lf\n", prices[i]);
+
+    // }
+    
+
+    // nested loops
+    // int rows;
+    // int columns;
+    // int symbol;
+
+    // printf("\nEnter # of rows: ");
+    // scanf("%d", &rows);
+
+    // printf("Enter # of columns: ");
+    // scanf("%d", &columns);
+
+    // scanf("%c");
+
+    // printf("Enter a symbol to use: ");
+    // scanf("%c", &symbol);
+
+    // for (int i = 1; i <= rows; i++) {
+    //     for(int j = 1; j <= columns; j++) {
+    //         printf("%c", symbol);
+
+    //     } printf("\n");
+    // }
 
 //   char string1[] ="Mejra";
 //   char string2[] = "Kucevic";
@@ -139,9 +183,9 @@ int main() {
     // printf("\n%d", E);
 
     // circle circumference round up calculator
-    double r;
+    // double r;
     
-    const double PI = 3.14159;
+    // const double PI = 3.14159;
     // printf("Enter the radius of your circle\n");
 
     // scanf("%lf", &r);
