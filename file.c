@@ -25,32 +25,83 @@ int main() {
     //             useful for matrix, grid, or tables of data
 
     // matrica 3x3
-     int numbers[3][3]; 
-    //     {1, 2, 3},
-    //     {4, 5, 6}
-    //     }; 
+    //  int numbers[3][3]; 
+    // //     {1, 2, 3},
+    // //     {4, 5, 6}
+    // //     }; 
 
-    int rows = sizeof(numbers)/sizeof(numbers[0]);
-    int columns = sizeof(numbers[0])/sizeof(numbers[0][0]);
+    // int rows = sizeof(numbers)/sizeof(numbers[0]);
+    // int columns = sizeof(numbers[0])/sizeof(numbers[0][0]);
 
-    numbers[0][0] = 1;
-    numbers[0][1] = 2;
-    numbers[0][2] = 3;
-    numbers[1][0] = 4;
-    numbers[1][1] = 5;
-    numbers[1][2] = 6;
-    numbers[2][0] = 7;
-    numbers[2][1] = 8;
-    numbers[2][2] = 9;
+    // numbers[0][0] = 1;
+    // numbers[0][1] = 2;
+    // numbers[0][2] = 3;
+    // numbers[1][0] = 4;
+    // numbers[1][1] = 5;
+    // numbers[1][2] = 6;
+    // numbers[2][0] = 7;
+    // numbers[2][1] = 8;
+    // numbers[2][2] = 9;
 
-    for(int i = 0; i < rows;  i++) { // 2rows
-        for (int j = 0; j < columns; j++) // 3columns
-        {
-            printf("%d ", numbers[i][j]);
-        }
-        printf("\n");
-    }
+    // for(int i = 0; i < rows;  i++) { // 2rows
+    //     for (int j = 0; j < columns; j++) // 3columns
+    //     {
+    //         printf("%d ", numbers[i][j]);
+    //     }
+    //     printf("\n");
+    // }
 
+    // matrica 3x3
+    // int brojevi[3][3];
+
+    // int redovi = sizeof(brojevi)/sizeof(brojevi[0]);
+    // int kolone = sizeof(brojevi[0])/sizeof(brojevi[0][0]);
+
+    // brojevi[0][0] = 0;
+    // brojevi[0][1] = 0;
+    // brojevi[0][2] = 0;
+    // brojevi[1][0] = 4;
+    // brojevi[1][1] = 2;
+    // brojevi[1][2] = 0;
+    // brojevi[2][0] = 0;
+    // brojevi[2][1] = 0;
+    // brojevi[2][2] = 0;
+
+    // for (int i = 0; i < redovi; i++) {
+    //     for (int j = 0; j < kolone; j++) {
+    //         printf("%d", brojevi[i][j]);
+    //     } printf("\n");
+    // }
+
+    // 
+
+    // char cars[][10] = {"Mustang", "Porsche", "Audi"};
+
+    // strcpy(cars[0], "Ferrari");
+
+    // for (int i = 0; i < sizeof(cars)/sizeof(cars[0]); i++) {
+    //     printf("%s\n", cars[i]);
+    // }
+
+    // EGG TOAST
+
+    // char recipe[][10] = {"Eggs", "Toast", "Oil", "Mayo"};
+
+    // printf("Ingredients for egg toast: \n");
+    // for (int i = 0; i < sizeof(recipe)/sizeof(recipe[0]); i++) {
+    //     printf("%s\n", recipe[i]);
+    // } 
+
+    char x[] = "water";
+    char y[] = "lemonade";
+    char temp[15];
+
+    strcpy(temp, x);
+    strcpy(x, y);
+    strcpy(y, temp);
+
+    printf("x = %s\n", x);
+    printf("y = %s\n", y);
     // arrays  
     // double prices[] = {5.0, 10.0, 15.0, 25, 20.0, 30.0};
 
