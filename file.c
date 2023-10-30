@@ -92,16 +92,16 @@ int main() {
     //     printf("%s\n", recipe[i]);
     // } 
 
-    char x[] = "water";
-    char y[] = "lemonade";
-    char temp[15];
+    // char x[] = "water";
+    // char y[] = "lemonade";
+    // char temp[15];
 
-    strcpy(temp, x);
-    strcpy(x, y);
-    strcpy(y, temp);
+    // strcpy(temp, x);
+    // strcpy(x, y);
+    // strcpy(y, temp);
 
-    printf("x = %s\n", x);
-    printf("y = %s\n", y);
+    // printf("x = %s\n", x);
+    // printf("y = %s\n", y);
     // arrays  
     // double prices[] = {5.0, 10.0, 15.0, 25, 20.0, 30.0};
 
