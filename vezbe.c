@@ -624,27 +624,27 @@
 
 // print numbers of N from N to 0 in while and for loops
 
-int main() {
-     // for loop
-    // int N, i, sum = 0;
-    // printf("Unesite broj: ");
-    // scanf("%d", &N);
+// int main() {
+//      // for loop
+//     // int N, i, sum = 0;
+//     // printf("Unesite broj: ");
+//     // scanf("%d", &N);
 
-    // for (i = N; i >= 0; i--) {
-    //     printf("%d\n", i);
+//     // for (i = N; i >= 0; i--) {
+//     //     printf("%d\n", i);
 
-    // }
+//     // }
 
-    // int N;
-    // printf("Unesite broj: ");
-    // scanf("%d", &N);
+//     // int N;
+//     // printf("Unesite broj: ");
+//     // scanf("%d", &N);
 
-    // while (N >= 0) {
-    //     printf("%d\n", N);
-    //     N--;
+//     // while (N >= 0) {
+//     //     printf("%d\n", N);
+//     //     N--;
         
-    // }
+//     // }
     
 
-    return 0;
-}
+//     return 0;
+// }
