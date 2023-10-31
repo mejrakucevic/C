@@ -649,19 +649,6 @@
 //     return 0;
 // }
 
-int main() {
-    int i, N;
-    int proizvod = 1;
-
-    printf("Unesite broj: ");
-    scanf("%d", &N);
-
-    for (i = 1; i <= N; i++) {
-        proizvod = proizvod * i;
-
-    } printf("%d", proizvod); return 0;
-}
-
 // Ispisati Fibonačijev niz do N-og člana.
 
 // Izračunati faktorijel datog broja N.
