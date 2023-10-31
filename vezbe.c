@@ -654,3 +654,5 @@
 // Izračunati faktorijel datog broja N.
 
 // Ispisati zbir svih parnih brojeva i proizvod svih neparnih brojeva od 1 do N.
+
+// Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
