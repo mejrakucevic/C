@@ -603,3 +603,48 @@
 
 //     return 0;
 // }
+
+// find the sum of the first N numbers
+
+// int main() {
+//     printf("Unesite broj: ");
+//     int N;
+//     scanf("%d", &N);
+
+//     int sum = 0;
+
+//     for (int i = 0; i <= N; i++) {
+//         sum = sum + i;
+
+
+//     } printf("%d", sum);
+//     return 0;
+// }
+
+
+// print numbers of N from N to 0 in while and for loops
+
+int main() {
+     // for loop
+    // int N, i, sum = 0;
+    // printf("Unesite broj: ");
+    // scanf("%d", &N);
+
+    // for (i = N; i >= 0; i--) {
+    //     printf("%d\n", i);
+
+    // }
+
+    // int N;
+    // printf("Unesite broj: ");
+    // scanf("%d", &N);
+
+    // while (N >= 0) {
+    //     printf("%d\n", N);
+    //     N--;
+        
+    // }
+    
+
+    return 0;
+}
