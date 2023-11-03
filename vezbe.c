@@ -674,3 +674,17 @@
 
 //       }
 // }
+
+
+
+// Izračunati rezultat deljenja brojeva X i Y, zaokružen na dve decimale.
+
+int main() {
+     double x, y;
+     printf("Unesite brojeve: ");
+     scanf("%lf %lf", &x, &y);
+
+     double r = x / y;
+     printf("%.2lf", r);
+     return 0;   
+     }
