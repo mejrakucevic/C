@@ -657,3 +657,20 @@
 
 // Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
 
+// Unosi se pozitivan celi broj N.
+// a) Ispisati sve cele brojeve od 2 do 2N.
+// b) Ispisati sve cele brojeve od N do 1.
+// int main() {
+//      int N;
+//      printf("Unesite broj: ");
+//      scanf("%d", &N);
+     
+//      for (int i = N; i >= 1; i--) {
+//         if (N == 1) {
+//         printf("1"); 
+//         continue;
+//      }
+//         printf("%d\n", i);
+
+//       }
+// }
