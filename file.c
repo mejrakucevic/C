@@ -349,8 +349,79 @@ int main() {
     //     printf("Its sunny!");
     // }
 
-   
-       
+//    DO WHILE
+//    int x = 0;
+
+//       int a = 0;
+
+//       do {
+//         printf("x in this moment of time: %d \n", a);
+//         a++;
+//       } while (a <= 10);
+
+//    WHILE LOOP
+//    int x = 0;
+//    while (x <= 10) {
+//     printf("x in this moment of time: %d \n", x);
+//     x++;
+//    } // bez ovog x++ bio bi infinite loop jer je x uvek manji od 10 a ne povecava se, a ovako uz x++ povecace se do 10 i prestace program da radi
+        
+  // nizovi tj arrays
+
+//   int numbers[] = {2, 4, 5, 1, 7};
+//   char slova[] = {'a', 'b', 'c'};
+
+//   printf("Number: %d \n", numbers[0]);
+//   printf("Number: %d \n", numbers[3]);
+
+//   slova[0] = 'k';
+//   printf("Slovo: %c \n", slova[0]);
+
+//   int x = 0;
+
+//   for (x; x <= 4; x++) {
+//     printf("Numbers: %d \n", numbers[x]);
+
+//   }
+
+
+   // switch case
+
+//    printf("1 - INFJ \n");   
+//    printf("2 - INFP \n");
+//    printf("3 - INTJ \n");
+//    printf("4 - INTP \n");
+//    printf("############### \n");
+
+//    int mbti;
+
+//    printf("Enter Choice: ");
+//    scanf("%d", &mbti);
+
+//    switch (mbti) {
+//     case 1: 
+//       printf("The name of your MBTI is Advocate!");
+//       break;
+
+//     case 2:
+//       printf("The name of your MBTI is Mediator!");
+//       break;
+
+//     case 3:
+//       printf("The name of your MBTI is Architect!");
+//       break;
+
+//     case 4:
+//       printf("The name of your MBTI is Logician!");
+//       break;
+
+//     default:
+//       printf("Pick one of the numbers!");
+//    }
+
+
+
+
 
     
     

@@ -604,6 +604,9 @@
 //     return 0;
 // }
 
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+
 // find the sum of the first N numbers
 
 // int main() {
@@ -620,6 +623,8 @@
 //     } printf("%d", sum);
 //     return 0;
 // }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 
 // print numbers of N from N to 0 in while and for loops
@@ -645,6 +650,8 @@
         
 //     // }
     
+// ----------------------------------------------------------------------------------------------------------------------------------
+
 
 //     return 0;
 // }
@@ -675,16 +682,57 @@
 //       }
 // }
 
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 
 // Izračunati rezultat deljenja brojeva X i Y, zaokružen na dve decimale.
 
-int main() {
-     double x, y;
-     printf("Unesite brojeve: ");
-     scanf("%lf %lf", &x, &y);
+// int main() {
+//      double x, y;
+//      printf("Unesite brojeve: ");
+//      scanf("%lf %lf", &x, &y);
 
-     double r = x / y;
-     printf("%.2lf", r);
-     return 0;   
-     }
+//      double r = x / y;
+//      printf("%.2lf", r);
+//      return 0;   
+//      }
+
+// kalkulator
+
+int main() {
+    double x,y;
+    int op;
+    
+    printf("Unesite prvi broj: ");
+    scanf("%lf", &x);
+
+   
+    printf("1. + \n"); 
+    printf("2. -  \n"); 
+    printf("3. * \n"); 
+    printf("4. / \n"); 
+    printf("Unesite broj operatora: \n");
+    scanf("%d", &op);
+    
+    printf("Unesite drugi broj: ");
+    scanf("%lf", &y);
+
+    switch(op) {
+         case 1:
+            printf("Zbir %.1lf i %.1lf jeste: %.2lf", x, y, x + y);
+            break;
+
+         case 2:
+            printf("Razlika %.1lf i %.1lf jeste: %.2lf", x, y, x - y);
+            break;
+         case 3:
+            printf("Rezultat mnozenja %.1lf i %.1lf jeste: %.2lf", x, y, x * y);
+            break;
+         case 4:
+            printf("Rezultat deljenja %.1lf i %.1lf jeste: %.2lf", x, y, x / y);
+            break;
+         default: printf("Unesite jedan od brojeva!");
+    }
+
+
+}
