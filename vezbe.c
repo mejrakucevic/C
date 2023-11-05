@@ -721,7 +721,6 @@
 //          case 1:
 //             printf("Zbir %.1lf i %.1lf jeste: %.2lf", x, y, x + y);
 //             break;
-
 //          case 2:
 //             printf("Razlika %.1lf i %.1lf jeste: %.2lf", x, y, x - y);
 //             break;
@@ -734,3 +733,30 @@
 //          default: printf("Unesite jedan od brojeva!");
 //     }
 // }
+
+// Napisati aplikaciju koja izracunava aritmetičku sredinu brojeva niza djeljivih sa nekim brojem uz pomoc for petlje.
+
+// int main() {
+//     int a, b, brojac;
+//     float sum, rezultat;
+//     printf("Unesite broj: ");
+//     scanf("%d", &a);
+
+//     printf("Unesite delilac: ");
+//     scanf("%d", &b);
+
+//     brojac = 0;
+//     sum = 0;
+
+//     for (int i = 1; i <= a; i++) {
+//         if (i % b == 0) { 
+//         brojac += 1;
+//         sum += i;  
+//         } 
+//     } 
+//     rezultat = sum / brojac;
+//     printf("%.2f", rezultat);
+
+//     return 0;
+// }
+
