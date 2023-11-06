@@ -656,13 +656,7 @@
 //     return 0;
 // }
 
-// Ispisati Fibonačijev niz do N-og člana.
 
-// Izračunati faktorijel datog broja N.
-
-// Ispisati zbir svih parnih brojeva i proizvod svih neparnih brojeva od 1 do N.
-
-// Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
 
 // Unosi se pozitivan celi broj N.
 // a) Ispisati sve cele brojeve od 2 do 2N.
@@ -760,3 +754,81 @@
 //     return 0;
 // }
 
+
+// Napišite program koji pronalazi faktorijel datog broja.
+
+// int main() {
+//     int a, n;
+//     n = 1;
+
+//     printf("Unesite pozitivan broj: ");
+//     scanf("%d", &a);
+
+//     for (int i = 1; i <= a; i++) {
+//         if (a <= 0) {
+//             printf("Unesite pozitivan broj!");
+//         } else { 
+//         n = n * i;
+//          }
+//     }   printf("%d", n);
+
+
+//     return 0;
+// }
+
+
+
+// Ispisati zbir svih parnih brojeva i proizvod svih neparnih brojeva od 1 do N.
+
+// int main() {
+
+//     int broj, zbir, prozivod;
+//     zbir = 0;
+//     prozivod = 1;
+//     printf("Unesite neki broj: ");
+//     scanf("%d", &broj);
+
+//     for (int i = 1; i <= broj; i++) {
+//         if (i % 2 == 0) {
+//             zbir += i;
+            
+//         } else {
+//             prozivod *= i;
+//         }
+//     } 
+//     printf("Zbir : %d\n", zbir); 
+//     printf("Prozivod: %d\n", prozivod);
+//     return 0;
+// }
+
+// Implementirajte program koji proverava da li je dati broj prost ili nije.
+ // Prost broj je broj veci od 1 i on je broj koji je deljiv samo sa 1 i sa samim sobom.
+        // ,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113
+
+        // int main() {
+        //     int broj, prost = 1;
+        //     printf("Unesite neki broj: ");
+        //     scanf("%d", &broj);
+
+        //     if (broj <= 1) {
+        //         prost = 0;
+        //     } else{ 
+        //     for (int i = 2; i < broj; i++) {
+        //         if (broj % i == 0) {
+        //             prost = 0;
+        //             break;
+        //         }  }
+        //     } if (prost == 1) {
+        //         printf("Broj je prost!"); }
+        //         else {
+        //             printf("Broj nije prost!");
+        //         }
+
+        //      return 0;
+        // }
+
+// Ispisati Fibonačijev niz do N-og člana.
+
+// Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
+
+// Number Guessing Game: Create a simple number guessing game where the program generates a random number, and the user has to guess it within a certain number of attempts.
