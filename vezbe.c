@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 #include <conio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
 
 
 // Strukture podataka i algoritmi vezbanja
@@ -690,6 +694,7 @@
 //      printf("%.2lf", r);
 //      return 0;   
 //      }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Kalkulator
 
@@ -727,6 +732,7 @@
 //          default: printf("Unesite jedan od brojeva!");
 //     }
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Napisati aplikaciju koja izracunava aritmetičku sredinu brojeva niza djeljivih sa nekim brojem uz pomoc for petlje.
 
@@ -753,6 +759,7 @@
 
 //     return 0;
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 
 // Napišite program koji pronalazi faktorijel datog broja.
@@ -776,6 +783,7 @@
 //     return 0;
 // }
 
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 
 // Ispisati zbir svih parnih brojeva i proizvod svih neparnih brojeva od 1 do N.
@@ -800,6 +808,7 @@
 //     printf("Prozivod: %d\n", prozivod);
 //     return 0;
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Implementirajte program koji proverava da li je dati broj prost ili nije.
  // Prost broj je broj veci od 1 i on je broj koji je deljiv samo sa 1 i sa samim sobom.
@@ -826,9 +835,52 @@
 
         //      return 0;
         // }
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Napravite program koji pronalazi zbir svih elemenata u nizu.
+
+// int main() {
+//     int broj, zbir = 0;
+//     printf("Unesite broj: "); 
+//     scanf("%d", &broj);
+
+//     for (int i = 0; i <= broj; i++){ 
+//         zbir += i;
+//     }
+//     printf("%d", zbir);
+// }
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Number Guessing Game: Create a simple number guessing game where the program generates a random number, and the user has to guess it within a certain number of attempts.
+
+// int main() {
+//     srand(time(0));
+//     int tacanBroj = (rand() % 20) + 1;
+
+//     int broj;
+//     printf("Igra pogadjanja broja! ");
+
+//     do {
+//         printf("Unesite broj: ");
+//         scanf("%d", &broj);
+        
+//         if (broj > tacanBroj) {
+//             printf("Vas broj je veci od tacnog broja!\n"); }
+
+//          else if (broj < tacanBroj) {
+//          printf("Vas broj je manji od tacnog broja!\n"); }
+//          else if (broj == tacanBroj) {
+//             printf("Pogodili ste broj, bravo!\n");
+//         } }  while (broj != tacanBroj);
+         
+        
+//           return 0;
+//     } 
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Ispisati Fibonačijev niz do N-og člana.
 
 // Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
 
-// Number Guessing Game: Create a simple number guessing game where the program generates a random number, and the user has to guess it within a certain number of attempts.
+
+
