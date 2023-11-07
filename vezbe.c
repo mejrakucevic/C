@@ -960,4 +960,35 @@
 //         }
 // }
 
+// Konj Valera ide na žurku sa prijateljima. Već neko vreme prati modne trendove i zna da je vrlo popularno nositi četiri potkovice različitih boja. Valera je ostao sa četiri potkovice od prošle godine, ali možda neke od njih imaju istu boju. U tom slučaju, mora otići u prodavnicu i kupiti još nekoliko potkova, da ne izgubi lice pred svojim stilskim drugovima.
 
+// Srećom, prodavnica prodaje potkove svih boja pod suncem, a Valera ima dovoljno novca da kupi bilo koje četiri. Međutim, kako bi uštedeo novac, želeo bi da potroši što manje novca, pa mu treba pomoć da odredi koji je minimalni broj potkova koje treba kupiti kako bi nosio četiri potkove različitih boja na žurku.
+
+// Ulaz
+// Prvi red sadrži četiri celobrojne vrednosti odvojene razmakom s1, s2, s3, s4 (1 ≤ s1, s2, s3, s4 ≤ 109) — boje potkova koje Valera ima.
+
+// Sve moguće boje se indeksiraju celim brojevima.
+
+// Izlaz
+// Ispišite jedan ceo broj — minimalni broj potkova koje Valera treba kupiti.
+
+// int main() {
+//         int b1, b2, b3, b4;
+//         scanf("%d %d %d %d", &b1, &b2, &b3, &b4);
+
+//         int posebneBoje = 1;
+//         int isteBoje;
+
+//         if (b1 != b2 && b1 != b3 && b1 != b4) {
+//                 posebneBoje++;
+//         } if (b2 != b3 && b2 != b4) {
+//                 posebneBoje++;
+//         } if (b3 != b4) {
+//                 posebneBoje++;
+//         }
+
+//         isteBoje = 4 - posebneBoje;
+//         printf("%d", isteBoje);
+        
+//         return 0;    
+// }
