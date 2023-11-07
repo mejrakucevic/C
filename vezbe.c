@@ -943,4 +943,21 @@
 
 // Izlazni parametri: (2), (3), (1)​
 
+// int main() {
+
+//         int a, b;
+//         printf("Unesite tezinu: ");
+//         scanf("%d %d", &a, &b);
+
+//         int godine = 0;
+
+//         while (a <= b) {
+//                 a *= 3;
+//                 b *= 2;
+//                 godine++;
+//         } if (a > b) {
+//                 printf("%d", godine);
+//         }
+// }
+
 
