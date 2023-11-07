@@ -878,23 +878,6 @@
 //     } 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
-// Ispisati Fibonačijev niz do N-og člana.
-
-// Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
-
-// Medved Limak želi da postane najveći medved, ili barem da postane veći od svog brata Boba.​
-// Trenutno, Limak i Bob imaju težinu a i b respektivno. Garantovano je da je Limakova težina manja ili jednaka težini njegovog brata.​
-// Limak jede mnogo i njegova težina se utrostručuje svake godine, dok se Bobova težina udvostručuje svake godine.​
-// Posle koliko punih godina će Limak postati striktno veći (strogo teži) od Boba?​
-// Jedini red unosa sadrži dva cela broja a i b — težinu Limaka i težinu Boba.​
-// Odštampajte jedan ceo broj, označavajući ceo broj godina nakon kojih će Limak postati striktno veći od Boba.​
-// ​
-
-// Ulazni parametri: (4 7), (4 9), (1 1)​
-
-// Izlazni parametri: (2), (3), (1)​
-
-
 // 2.
 // Jednog dana tri najbolja prijatelja Petya, Vasya i Tonya odlučili su da formiraju tim i učestvuju u programerskim takmičenjima. Učesnicima se obično nude različiti problemi tokom programerskih takmičenja. Dugo pre početka takmičenja prijatelji su odlučili da će rešiti problem samo ako bar dvoje od njih troje sigurno znaju rešenje. U suprotnom, prijatelji neće pisati rešenje problema.
 
@@ -906,25 +889,58 @@
 // Izlaz
 // Ispišite jedan ceo broj — broj problema za koje će prijatelji napisati rešenje na takmičenju.
 
-int main() {
-        int n;
-        printf("Unesite broj problema na takmicenju: ");
-        scanf("%d", &n);
+// int main() {
+//         int n;
+//         printf("Unesite broj problema na takmicenju: ");
+//         scanf("%d", &n);
 
-        int a, b, c;
+//         int a, b, c;
         
-        int brojProblema = 0;
+//         int brojProblema = 0;
 
-        for (int i = 1; i <= n; i++) { 
-        printf("Unesite sigurnost takmicara sa 0 ili 1: ");
-        scanf("%d %d %d", &a, &b, &c);
+//         for (int i = 1; i <= n; i++) { 
+//         printf("Unesite sigurnost takmicara sa 0 ili 1: ");
+//         scanf("%d %d %d", &a, &b, &c);
 
-        int sigurnost = a + b + c;
+//         int sigurnost = a + b + c;
 
-        if (sigurnost >= 2) {
-                brojProblema ++;
+//         if (sigurnost >= 2) {
+//                 brojProblema ++;
             
-        } }
-        printf("Broj problema koji ce napisati jeste %d", brojProblema);
-        return 0;
-}
+//         } }
+//         printf("Broj problema koji ce napisati jeste %d", brojProblema);
+//         return 0;
+// }
+
+
+// Ispisati Fibonačijev niz do N-og člana.
+
+// Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
+// int main() {
+//         int n;
+//         printf("Unesite n: ");
+//         scanf("%d", &n);
+//         int i = 1;
+
+//         while (n >= i) {        
+//                 printf("%d\n", n);
+//                 n--;
+//         } 
+//         return 0;
+// }
+
+
+
+// Medved Limak želi da postane najveći medved, ili barem da postane veći od svog brata Boba.​
+// Trenutno, Limak i Bob imaju težinu a i b respektivno. Garantovano je da je Limakova težina manja ili jednaka težini njegovog brata.​
+// Limak jede mnogo i njegova težina se utrostručuje svake godine, dok se Bobova težina udvostručuje svake godine.​
+// Posle koliko punih godina će Limak postati striktno veći (strogo teži) od Boba?​
+// Jedini red unosa sadrži dva cela broja a i b — težinu Limaka i težinu Boba.​
+// Odštampajte jedan ceo broj, označavajući ceo broj godina nakon kojih će Limak postati striktno veći od Boba.​
+
+
+// Ulazni parametri: (4 7), (4 9), (1 1)​
+
+// Izlazni parametri: (2), (3), (1)​
+
+
