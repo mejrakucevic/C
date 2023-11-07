@@ -20,7 +20,29 @@
 // }
 
 
+// typedef = reserved keyword that gives a nickname for an existing datatype
+// its mostly for convenience
+
+typedef char user[25] ;
+
 int main() {
+       user user1 = "Bro";
+    // struct Player player1;
+    // struct Player player2;
+
+    // strcpy(player1.name, "Mejra");
+    // player1.score = 4;
+
+    // strcpy(player2.name, "Dag");
+    // player2.score = 5;
+
+    // printf("%s\n", player1.name);
+    // printf("%d\n", player1.score);
+
+    // printf("%s\n", player2.name);
+    // printf("%d\n", player2.score);
+
+    
     // 2d arrays - an array, where each element is an entire array
     //             useful for matrix, grid, or tables of data
 
@@ -449,3 +471,9 @@ int main() {
     
 //     return 0;
 // }
+  
+
+
+
+  return 0;
+}
