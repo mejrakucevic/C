@@ -882,5 +882,49 @@
 
 // Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
 
+// Medved Limak želi da postane najveći medved, ili barem da postane veći od svog brata Boba.​
+// Trenutno, Limak i Bob imaju težinu a i b respektivno. Garantovano je da je Limakova težina manja ili jednaka težini njegovog brata.​
+// Limak jede mnogo i njegova težina se utrostručuje svake godine, dok se Bobova težina udvostručuje svake godine.​
+// Posle koliko punih godina će Limak postati striktno veći (strogo teži) od Boba?​
+// Jedini red unosa sadrži dva cela broja a i b — težinu Limaka i težinu Boba.​
+// Odštampajte jedan ceo broj, označavajući ceo broj godina nakon kojih će Limak postati striktno veći od Boba.​
+// ​
+
+// Ulazni parametri: (4 7), (4 9), (1 1)​
+
+// Izlazni parametri: (2), (3), (1)​
 
 
+// 2.
+// Jednog dana tri najbolja prijatelja Petya, Vasya i Tonya odlučili su da formiraju tim i učestvuju u programerskim takmičenjima. Učesnicima se obično nude različiti problemi tokom programerskih takmičenja. Dugo pre početka takmičenja prijatelji su odlučili da će rešiti problem samo ako bar dvoje od njih troje sigurno znaju rešenje. U suprotnom, prijatelji neće pisati rešenje problema.
+
+// Takmičenje nudi n problema učesnicima. Za svaki problem znamo koji prijatelj je siguran u rešenje. Pomozite prijateljima da pronađu broj problema za koje će napisati rešenje.
+
+// Ulaz
+// Prvi red ulaza sadrži jedan ceo broj n (1 ≤ n ≤ 1000) — broj problema na takmičenju. Zatim n linija sadrže po tri cela broja, svaki broj je ili 0 ili 1. Ako prvi broj u liniji ima vrednost 1, onda Petya je siguran u rešenje problema, inače nije siguran. Drugi broj predstavlja stav Vasye o rešenju, treći broj predstavlja Tonyin stav. Brojevi u linijama su odvojeni razmakom.
+
+// Izlaz
+// Ispišite jedan ceo broj — broj problema za koje će prijatelji napisati rešenje na takmičenju.
+
+int main() {
+        int n;
+        printf("Unesite broj problema na takmicenju: ");
+        scanf("%d", &n);
+
+        int a, b, c;
+        
+        int brojProblema = 0;
+
+        for (int i = 1; i <= n; i++) { 
+        printf("Unesite sigurnost takmicara sa 0 ili 1: ");
+        scanf("%d %d %d", &a, &b, &c);
+
+        int sigurnost = a + b + c;
+
+        if (sigurnost >= 2) {
+                brojProblema ++;
+            
+        } }
+        printf("Broj problema koji ce napisati jeste %d", brojProblema);
+        return 0;
+}
