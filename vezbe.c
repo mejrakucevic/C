@@ -3,6 +3,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
 
 
 
@@ -992,3 +993,25 @@
         
 //         return 0;    
 // }
+
+
+// Napišite program u C da prikaže n članova prirodnih brojeva i njihov zbir.
+
+int main() {
+        int n, brojac = 0;
+        int zbir = 0;
+        int i;
+        printf("Unesite broj: ");
+        scanf("%d", &n);
+
+        for (i = 1; i <= n; i++){
+                printf("%d\n", i);
+                zbir += i;
+
+
+        } printf("%d", zbir);
+}
+
+// Napišite program u C da čita 10 brojeva sa tastature i nađe njihov zbir i prosek.
+
+// Napišite program u C za prikaz tabele množenja vertikalno od 1 do n.
