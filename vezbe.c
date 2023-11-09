@@ -1136,5 +1136,19 @@
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
+//  Izračunati aritmetičku sredinu prirodnih brojeva od 3 do 8. // arit sredina = suma / broj brojeva
 
-//  Izračunati aritmetičku sredinu prirodnih brojeva od 3 do 8.
+// int main() {
+//         float suma = 0;
+//         float sredina;
+//         float brojBrojeva = 0;
+//         for (float i = 3; i <= 8; i++) {
+//                 suma += i;
+//                 brojBrojeva++;
+//         } printf("Arit. sredina je %.2f", suma / brojBrojeva); 
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Izračunati aritmetičku sredinu prirodnih brojeva od a do b.
+
