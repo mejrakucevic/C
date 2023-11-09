@@ -1118,10 +1118,23 @@
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
-// 8.1..Izračunati i ispisati sumu reciprocnih vrijednosti prirodnih brojeva od k do n.
+// 8.1..Izračunati i ispisati sumu reciprocnih vrijednosti prirodnih brojeva od t do v.
 
-int main() {
-         int t, v;
-/        printf("Unesite prvi i zadnji broj: ");
-//         scanf("%d %d", &t, &v);
-}
+// int main() {
+//          float t, v;
+//          printf("Unesite prvi i zadnji broj: ");
+//          scanf("%f %f", &t, &v);
+
+//          float suma = 0;
+
+//          for (float i = t; i <= v; i++) {
+//                 suma += 1.0 / i;
+//          } printf("%f", suma);
+//          return 0;
+
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+
+//  Izračunati aritmetičku sredinu prirodnih brojeva od 3 do 8.
