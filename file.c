@@ -473,7 +473,11 @@ int main() {
 // }
   
 
+char stringy[] = "recenica";
 
+int length = strlen(stringy);
+char zadnjeslovo = stringy[length - 1];
+printf("%d", zadnjeslovo);
 
   return 0;
 }

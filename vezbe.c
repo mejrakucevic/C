@@ -912,9 +912,11 @@
 //         printf("Broj problema koji ce napisati jeste %d", brojProblema);
 //         return 0;
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 
 // Ispisati Fibonačijev niz do N-og člana.
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
 // int main() {
@@ -931,6 +933,7 @@
 // }
 
 
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Medved Limak želi da postane najveći medved, ili barem da postane veći od svog brata Boba.​
 // Trenutno, Limak i Bob imaju težinu a i b respektivno. Garantovano je da je Limakova težina manja ili jednaka težini njegovog brata.​
@@ -960,6 +963,7 @@
 //                 printf("%d", godine);
 //         }
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Konj Valera ide na žurku sa prijateljima. Već neko vreme prati modne trendove i zna da je vrlo popularno nositi četiri potkovice različitih boja. Valera je ostao sa četiri potkovice od prošle godine, ali možda neke od njih imaju istu boju. U tom slučaju, mora otići u prodavnicu i kupiti još nekoliko potkova, da ne izgubi lice pred svojim stilskim drugovima.
 
@@ -993,25 +997,131 @@
         
 //         return 0;    
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 
 // Napišite program u C da prikaže n članova prirodnih brojeva i njihov zbir.
 
-int main() {
-        int n, brojac = 0;
-        int zbir = 0;
-        int i;
-        printf("Unesite broj: ");
-        scanf("%d", &n);
+// int main() {
+//         int n, brojac = 0;
+//         int zbir = 0;
+//         int i;
+//         printf("Unesite broj: ");
+//         scanf("%d", &n);
 
-        for (i = 1; i <= n; i++){
-                printf("%d\n", i);
-                zbir += i;
+//         for (i = 1; i <= n; i++){
+//                 printf("%d\n", i);
+//                 zbir += i;
 
 
-        } printf("%d", zbir);
-}
+//         } printf("%d", zbir);
+// }
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+
+//  Izračunati i ispisati sumu prirodnih brojeva od k do n.
+
+// int main() {
+//         int k,n;
+//         printf("unesite prvi i zadnji broj: ");
+//         scanf("%d %d", &k, &n);
+//         int suma = 0;
+
+//         for (int i = k; i <= n; i++) {
+//                 if (k > 0 && n > 0) {
+//                     suma += i;
+//                 }
+//         } printf("%d", suma); 
+//         return 0;
+// }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Napišite program u C da čita 10 brojeva sa tastature i nađe njihov zbir i prosek.
 
-// Napišite program u C za prikaz tabele množenja vertikalno od 1 do n.
+// int main() {
+//         int brojevi[10];
+//         int zbir = 0;
+//         float prosek;
+//         printf("Unesite 10 brojeva: ");
+
+//         for (int i = 0; i < 10; i++){
+//                 scanf("%d", &brojevi[i]);
+//                 zbir += brojevi[i];
+                
+//         } prosek = (float)zbir / 10;
+//         printf("%d je zbir, a prosek je %d", zbir, prosek);
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Napisati program da ispisuje 3 puta u 3 reda IME sa razmakom.
+// IME IME IME 
+// IME IME IME
+// IME IME IME
+
+// int main() {
+//         int i, j;
+        
+//         for (i = 1; i <= 3; i++) {
+//                 for (j = 1; j <= 3; j++) {
+//                         printf("IME ");
+//                 } printf("\n");
+//         }
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+//  Ispis prirodnih brojeva od k do n koji nisu djeljivi sa a.
+
+// int main() {
+//         int k, n, a;
+//         printf("Unesite prvi i drugi broj, i broj za proveru ne deljivosti: ");
+//         scanf("%d %d %d", &k, &n, &a);
+
+//         for (int i = k; i <= n; i++) {
+//                 if (i % a != 0) {
+//                         printf("%d ", i);
+//                 }
+//         }
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// 8.1.. Izračunati i ispisati sumu kvadrata prirodnih brojeva od t do v.
+
+// int main() {
+//         int t, v;
+//         printf("Unesite prvi i zadnji broj: ");
+//         scanf("%d %d", &t, &v);
+
+//         int suma = 0;
+
+//         for (int i = t; i <= v; i++) {          
+//                 suma += i * i;
+//         } printf("%d", suma);
+//         return 0;
+// } 
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// . Suma neparnih prirodnih brojeva od 1 do 5.
+
+// int main() {
+//         int suma = 0;
+        
+//         for (int i = 1; i <= 5; i++) { 
+//                 if (i % 2 != 0) {
+//                         suma += i;
+//                 }
+//         } printf("%d", suma);
+//         return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// 8.1..Izračunati i ispisati sumu reciprocnih vrijednosti prirodnih brojeva od k do n.
+
+int main() {
+         int t, v;
+/        printf("Unesite prvi i zadnji broj: ");
+//         scanf("%d %d", &t, &v);
+}
