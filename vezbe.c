@@ -1171,11 +1171,34 @@
 
 // Izračunati proizvod parnih prirodnih brojeva od 1 do 5.
 
-int main() {
-        int p = 1;
-        for (int i = 1; i <= 5; i++) {
-                if (i % 2 == 0) {
-                       p *= i;
-                }
-        } printf("%d", p);
-}
+// int main() {
+//         int p = 1;
+//         for (int i = 1; i <= 5; i++) {
+//                 if (i % 2 == 0) {
+//                        p *= i;
+//                 }
+//         } printf("%d", p);
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// 48.Napisati program za ispis proizvoda brojeva od 1 do n koji su djeljivi sa a.
+
+// int main() {
+//         int n, a;
+
+//         printf("Unesite broj i delilac broja: ");
+//         scanf("%d %d", &n, &a);
+//         int p = 1;
+
+//         for (int i = 1; i <= n; i++) {
+//                 if (i % a == 0) {
+//                         p = p * i;
+//                 }
+
+//         } printf("Proizvod je %d", p);
+//         return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
