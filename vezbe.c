@@ -1150,5 +1150,32 @@
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
-// Izračunati aritmetičku sredinu prirodnih brojeva od a do b.
+// Izračunati aritmetičku sredinu prirodnih brojeva od a do b. // suma brojeva / broj brojeva
 
+// int main() {
+//         int a, b;
+//         printf("Unesite 2 broja: ");
+//         scanf("%d %d", &a, &b);
+//         float suma = 0;
+//         float brojBrojeva = 0;
+
+
+//         for (int i = a; i <= b; i++){
+//             suma += i;
+//             brojBrojeva++;
+//         } printf("Aritmeticka sredina brojeva %d i %d jeste : %.2f: ", a, b, suma / brojBrojeva);
+//         return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Izračunati proizvod parnih prirodnih brojeva od 1 do 5.
+
+int main() {
+        int p = 1;
+        for (int i = 1; i <= 5; i++) {
+                if (i % 2 == 0) {
+                       p *= i;
+                }
+        } printf("%d", p);
+}
