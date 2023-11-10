@@ -1254,5 +1254,21 @@
 //        } 
 //          int pozajmiti = ukupnaCena - n;
 //          printf("%d", pozajmiti);
-
+//          return 0;
 // }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Slon je odlučio da poseti svog prijatelja. Ispostavilo se da se kuća slona nalazi u tački 0, a kuća njegovog prijatelja u tački k(k > 0) koordinatne prave. U jednom koraku slon može da se pomeri za 1, 2, 3, 4 ili 5 pozicija napred. Odredi koji je minimalni broj koraka koji treba da napravi da bi stigao do kuće svog prijatelja.​
+
+// Prvi red unosa sadrži ceo broj k — koordinata kuće prijatelja.​
+
+// Odštampajte minimalni broj koraka koje slon treba da napravi da bi stigao od tačke 0 do tačke k.​
+
+// Ulazni parametri: (5), (12)​
+
+// Izlazni parametri: (1), (3)​
+ // ????????????????????????????????????????????????????????????????
+
+
+ 
