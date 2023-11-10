@@ -25,7 +25,28 @@
 
 typedef char user[25] ;
 
+
+struct Student {
+  char name[12];
+  float gpa;
+};
+
 int main() {
+
+    struct Student student1 = {"Spongebob", 3.0};
+    struct Student student2 = {"Patrick", 2.5};
+    struct Student student3 = {"Sandy", 4.0};
+
+    struct Student students[] = {student1, student2, student3};
+
+    for (int i = 0; i <= sizeof(students)/sizeof(students[0]); i++) {
+      printf("%-12s\t", students[i].name);
+      printf("%.2f\n", students[i].gpa);
+
+    }
+
+
+  }
        user user1 = "Bro";
     // struct Player player1;
     // struct Player player2;
@@ -473,11 +494,11 @@ int main() {
 // }
   
 
-char stringy[] = "recenica";
+// char stringy[] = "recenica";
 
-int length = strlen(stringy);
-char zadnjeslovo = stringy[length - 1];
-printf("%d", zadnjeslovo);
+// int length = strlen(stringy);
+// char zadnjeslovo = stringy[length - 1];
+// printf("%d", zadnjeslovo);
 
-  return 0;
-}
+//   return 0;
+// }
