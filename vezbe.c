@@ -1242,3 +1242,17 @@
 
 // Izlazni parametri: (13)​
 
+// int main() {
+//         int k, n, v;
+//         printf("Unesite cenu prve banane, pocetni broj dolara vojnika, i zeljeni broj banana: ");
+//         scanf("%d %d %d", &k, &n, &v);
+//         int ukupnaCena = 0;
+
+//        for (int i= 1; i <= v; i++) {
+//             ukupnaCena += i * k;
+          
+//        } 
+//          int pozajmiti = ukupnaCena - n;
+//          printf("%d", pozajmiti);
+
+// }
