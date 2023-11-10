@@ -1202,3 +1202,43 @@
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
+// Jednog dana tri najbolja prijatelja Pet, Vasa i Toni odlučili su da formiraju tim i učestvuju u takmičenjima u programiranju. Učesnicima se obično nudi nekoliko zadataka tokom takmičenja u programiranju. Mnogo pre početka prijatelji su odlučili da će sprovesti problem ako su bar dvojica sigurni u rešenje. U suprotnom, prijatelji neće napisati rešenje problema.​
+
+// Ovo takmičenje nudi učesnicima n problema. Za svaki problem koji znamo, koji prijatelj je siguran u rešenje. Pomozite prijateljima da pronađu broj problema za koje će napisati rešenje.​
+
+// Prva linija unosa sadrži jedan ceo broj n — broj zadataka u takmičenju. Tada n redova sadrži po tri cela broja, svaki ceo broj je ili 0 ili 1. Ako je prvi broj u redu 1, onda je Pet siguran u rešenje problema, inače nije siguran. Drugi broj prikazuje Vasa pogled na rešenje, treći broj prikazuje Toni pogled. Brojevi na linijama su razdvojeni razmacima.​
+
+// Odštampajte jedan ceo broj — broj problema koje će prijatelji primeniti na takmičenju.​
+
+// int main() {
+//         int n, peta, vasa, toni, brojResenja = 0;
+
+//         printf("Unesite broj zadataka na takmicenju: ");
+//         scanf("%d", &n); 
+
+//         for (int i = 1; i <= n; i++){
+//                 printf("Unesite Petin, Vasin i Tonin odgovor: ");
+//                 scanf("%d %d %d", &peta, &vasa, &toni);
+//                 int odgovori = peta + vasa + toni;
+//                 if (odgovori >= 2) {
+//                         brojResenja += 1;
+//                 }
+
+//         } printf("%d", brojResenja);
+//           return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Vojnik želi da kupi banane u radnji. Mora da plati k dolara za prvu bananu, 2k dolara za drugu i tako dalje (drugim rečima, mora da plati i·k dolara za i-tu bananu).​
+
+// On ima n dolara. Koliko dolara mora da pozajmi od svog prijatelja vojnika da bi kupio banane?​
+
+// Prvi red sadrži tri pozitivna cela broja k, n, v , cenu prve banane, početni broj dolara koji vojnik ima i broj banana koje želi.​
+
+// Iznesite jedan ceo broj — iznos dolara koji vojnik mora da pozajmi od svog prijatelja. Ako ne mora da pozajmi novac, ispišite 0.​
+
+// Ulazni parametri: (3 17 4)​   // prva banana = 3, druga banana = 6, treca banana = 9, cetvrtva banana = 12 ukupno = 30, 30 - 17 = 13
+
+// Izlazni parametri: (13)​
+
