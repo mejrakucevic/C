@@ -31,19 +31,39 @@ struct Student {
   float gpa;
 };
 
+struct reperi {
+  char ime[20];
+  int grammys;
+};
+
 int main() {
 
-    struct Student student1 = {"Spongebob", 3.0};
-    struct Student student2 = {"Patrick", 2.5};
-    struct Student student3 = {"Sandy", 4.0};
+    // struct reperi reper1 = {"Frank Ocean", 2};
+    // struct reperi reper2 = {"Ye", 4};
+    // struct reperi reper3 = {"Doja Cat", 2};
 
-    struct Student students[] = {student1, student2, student3};
+    // struct reperi grupaRepera[] = {reper1, reper2, reper3};
 
-    for (int i = 0; i <= sizeof(students)/sizeof(students[0]); i++) {
-      printf("%-12s\t", students[i].name);
-      printf("%.2f\n", students[i].gpa);
+    // for (int i = 0; i <= sizeof(grupaRepera)/sizeof(grupaRepera[0]); i++) {
+    //   printf("%-2s\t", grupaRepera[i].ime);
+    //   printf("%-2d\n", grupaRepera[i].grammys);
 
-    }
+      
+    // }
+
+
+
+    // struct Student student1 = {"Spongebob", 3.0};
+    // struct Student student2 = {"Patrick", 2.5};
+    // struct Student student3 = {"Sandy", 4.0};
+
+    // struct Student students[] = {student1, student2, student3};
+
+    // for (int i = 0; i <= sizeof(students)/sizeof(students[0]); i++) {
+    //   printf("%-12s\t", students[i].name);
+    //   printf("%.2f\n", students[i].gpa);
+
+    // }
 
 
   }
