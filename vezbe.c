@@ -1269,6 +1269,111 @@
 
 // Izlazni parametri: (1), (3)​
  // ????????????????????????????????????????????????????????????????
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 
- 
+//  Momak po imenu Vasa ide u završni razred srednje škole. Jednog dana Vasa je odlučio da gleda utakmicu svog omiljenog hokejaškog tima. A, kako dečak mnogo voli hokej, čak više od fizike, zaboravio je da uradi domaći zadatak. Konkretno, zaboravio je da završi svoje zadatke iz fizike. Sledećeg dana učitelj se veoma naljutio na Vasu i odlučio da mu da lekciju. On je lenjom učeniku dao naizgled lak zadatak: Dato vam je prazno telo u svemiru i sile koje na njega utiču. Telo se može posmatrati kao materijalna tačka sa koordinatama (0; 0; 0). Vasa je morao samo da odgovori da li je u ravnoteži. „Komad kolača“ — pomisli Vasa, treba samo da proverimo da li je zbir svih vektora jednak 0. Dakle, Vasja je počeo da rešava problem. Ali kasnije se ispostavilo da ovih snaga može biti mnogo i mnogo, a Vasa se ne može nositi bez vaše pomoći. Napisati program koji određuje da li telo miruje ili se kreće po datim vektorima sila.​
+
+// Prvi red sadrži pozitivan ceo broj n, zatim sledi n redova koji sadrže po tri cela broja: ki koordinatu, ii koordinatu i zi koordinatu vektora sile, primenjene na telo.​
+
+// Odštampajte reč „DA“ ako je telo u ravnoteži, ili reč „NE“ ako nije.​
+
+// int main() {
+
+//         int n, ki, ii, zi;
+
+//         printf("Unesite broj redova: ");
+//         scanf("%d", &n);
+//         int zbirVektora = 0;
+        
+//         for (int i = 1; i <= n; i++) {
+//                 printf("Unesite ki, ii i zi koordinatu: ");
+//                 scanf("%d %d %d", &ki, &ii, &zi);
+
+//                 zbirVektora += ki + ii + zi;
+        
+
+//         } if (zbirVektora == 0) {
+//                 printf("DA");
+//         } else printf("NE");
+//         return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Devojčica Ilma uči kako da smanji broj za jedan, ali to čini pogrešno sa brojem koji se sastoji od dve ili više cifara. Ilma oduzima jedan od broja sledećim algoritmom:​
+
+// ako je poslednja cifra broja različita od nule, ona smanjuje broj za jedan; ako je poslednja cifra broja nula, ona deli broj sa 10 (tj. uklanja poslednju cifru). Dat vam je ceo broj 𝑛. Ilma će od toga oduzeti jednu 𝑘 puta. Vaš zadatak je da odštampate rezultat nakon svih oduzimanja 𝑘.​
+
+// Garantovano je da će rezultat biti pozitivan ceo broj.​
+
+// Prvi red unosa sadrži dva cela broja 𝑛 i 𝑘 — broj od kojeg će Ilma oduzeti i broj oduzimanja shodno tome.​
+
+// Odštampajte jedan ceo broj — rezultat smanjenja 𝑛 za jedan 𝑘 puta.​
+
+// Garantovano je da će rezultat biti pozitivan ceo broj.​
+
+// Ulazni parametri: (512 4), (1.000.000.000 9)​   
+
+// Izlazni parametri: (50), (1)
+
+// int main(){
+//         int n, k, noviBroj;
+
+//         printf("Unesite broj i broj puta oduzimanja: ");
+//         scanf("%d %d", &n, &k);
+
+//         noviBroj = n;
+
+
+//         for (int i = 1; i <= k; i++) {
+//                 if (noviBroj % 10 != 0) {
+//                    noviBroj -= 1;   
+//                 } else {
+//                    noviBroj /= 10;
+//                 }
+//         } 
+//         printf("%d", noviBroj);
+//         return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Kada pripremaju turnir, IT koordinatori se trude da maksimalno olakšaju prvi problem. Ovoga puta koordinator je odabrao neki problem i pitao 𝑛 ljude o njihovom mišljenju. Svaka osoba je odgovorila da li je ovaj problem lak ili težak.​
+
+// Ako je bar jedan od ovih 𝑛 ljudi odgovorio da je problem težak, koordinator odlučuje da promeni problem. Za date odgovore, proverite da li je problem dovoljno lak.​
+
+// Prvi red sadrži jedan ceo broj 𝑛 — broj ljudi od kojih je zatraženo da daju svoje mišljenje.​
+
+// Drugi red sadrži 𝑛 celih brojeva, svaki ceo broj je ili 0 ili 1. Ako je 𝑖-ti ceo broj 0, onda 𝑖-ta osoba misli da je problem lak; ako je 1, onda 𝑖-ta osoba misli da je problem težak.​
+
+// Odštampajte jednu reč: „LAKO“ ako je problem lak prema svim odgovorima ili „TEŠKO“ ako postoji bar jedna osoba koja misli da je problem težak.​
+
+// Možete odštampati svako slovo u bilo kom registru: "EASI", "easi", "EaSI" i "eAsI" će sve biti ispravno obrađeno.​
+
+// Ulazni parametri:( 3​
+
+// 0 0 1), (1​
+
+// 0)​
+
+// Izlazni parametri: (HARD), (EASY)​
+
+// int main() {
+//         int n, odg;
+//         printf("Unesite broj osoba: ");
+//         scanf("%d", &n);
+
+//         int zbirOdg = 0;
+//         for (int i = 1; i <= n; i++) {
+//                 printf("Unesite odgovore sa 0 ili 1: ");
+//                 scanf("%d", &odg);
+
+//                 zbirOdg += odg;
+//         }
+//          if (zbirOdg == 0) {
+//                 printf("LAKO");
+//          } else printf("TESKO");
+//          return 0;
+// }
+

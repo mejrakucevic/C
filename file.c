@@ -36,7 +36,13 @@ struct reperi {
   int grammys;
 };
 
+// ENUMNS ARE NOT STRINGS, HELP MAKE THE CODE MORE READABLE;
+enum Day{Sun = 1, Mon = 2, Tue = 3, Wed = 4, Thu, Fri, Sat};
+
 int main() {
+
+    enum Day today = Sun;
+    printf("%d", today);
 
     // struct reperi reper1 = {"Frank Ocean", 2};
     // struct reperi reper2 = {"Ye", 4};
