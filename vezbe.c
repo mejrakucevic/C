@@ -1403,18 +1403,18 @@
 // 10 10)​
 
 // Izlazni parametri: (0), (2)
-int main() {
-        int n;
-        printf("Unesite broj soba: ");
-        scanf("%d", &n);
-        int brojLjudi, kapacitet, slobodno = 0;
+// int main() {
+//         int n;
+//         printf("Unesite broj soba: ");
+//         scanf("%d", &n);
+//         int brojLjudi, kapacitet, slobodno = 0;
 
-        for (int i = 1; i <= n; i++) {
-                printf("Unesite broj ljudi u sobi i kapacitet sobe: ");
-                scanf("%d %d", &brojLjudi, &kapacitet);
-                if (kapacitet > brojLjudi) {
-                        slobodno += 1;
-                }
-        } printf("%d", slobodno);
-          return 0;
-}
+//         for (int i = 1; i <= n; i++) {
+//                 printf("Unesite broj ljudi u sobi i kapacitet sobe: ");
+//                 scanf("%d %d", &brojLjudi, &kapacitet);
+//                 if (kapacitet > brojLjudi) {
+//                         slobodno += 1;
+//                 }
+//         } printf("%d", slobodno);
+//           return 0;
+// }
