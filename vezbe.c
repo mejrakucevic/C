@@ -859,6 +859,7 @@
 //     int tacanBroj = (rand() % 20) + 1;
 
 //     int broj;
+//     int brojPogadjaja = 0;
 //     printf("Igra pogadjanja broja! ");
 
 //     do {
@@ -870,11 +871,13 @@
 
 //          else if (broj < tacanBroj) {
 //          printf("Vas broj je manji od tacnog broja!\n"); }
-//          else if (broj == tacanBroj) {
-//             printf("Pogodili ste broj, bravo!\n");
-//         } }  while (broj != tacanBroj);
-         
-        
+//          else {
+//             printf("Pogodili ste broj, bravo!\n");   
+//         } 
+//         brojPogadjaja += 1;
+
+//         }  while (broj != tacanBroj);
+//         printf("Broj pogadjaja: %d", brojPogadjaja);
 //           return 0;
 //     } 
 // ----------------------------------------------------------------------------------------------------------------------------------
