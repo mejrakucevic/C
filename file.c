@@ -3,6 +3,8 @@
 #include <string.h>
 #include <math.h>
 #include <ctype.h>
+#include <stdlib.h>
+#include <time.h>
 
 //  void birthday(char x[], int y) {
 //         printf("\nHappy Birthday dear %s!", x);
@@ -41,8 +43,53 @@ enum Day{Sun = 1, Mon = 2, Tue = 3, Wed = 4, Thu, Fri, Sat};
 
 int main() {
 
-    enum Day today = Sun;
-    printf("%d", today);
+  //  srand(time(0));
+
+  //  int number1 = (rand() % 20) + 1;
+  //     int number2 = (rand() % 20) + 1;
+  //        int number3 = (rand() % 20) + 1;
+
+
+
+  //  printf("%d\n", number1);
+  //   printf("%d\n", number2);
+  //    printf("%d", number3);
+
+  const int MIN = 1;
+  const int MAX = 100;
+  int guess;
+
+  int guesses = 0;
+  int answer;
+
+  srand(time(0));
+
+  // generates a random number between min and max
+  answer = (rand() % MAX) + MIN;
+
+     do{
+         printf("Enter a guess: ");
+         scanf("%d", &guess);
+
+         if (guess > answer) {
+          printf("Too high!\n");
+         } else if (guess < answer) {
+          printf("Too low!\n");
+         } else {
+          printf("CORRECT!\n");
+         }
+         guesses++;
+     } while (guess != answer);
+
+       printf("-----------------------\n");
+       printf("answer: %d\n", answer);
+       printf("guesses: %d\n", guesses);
+       printf("-----------------------");
+
+
+
+    // enum Day today = Sun;
+    // printf("%d", today);
 
     // struct reperi reper1 = {"Frank Ocean", 2};
     // struct reperi reper2 = {"Ye", 4};
