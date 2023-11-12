@@ -1377,3 +1377,44 @@
 //          return 0;
 // }
 
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Džordž je nedavno upisao BSUCP. Džordž ima prijatelja Aleksa koji je takođe upisao fakultet. Sada se useljavaju u studentski dom.​
+// Džordž i Aleks žele da žive u istoj sobi. Spavaonica ima ukupno n soba. Trenutno u i-toj prostoriji žive pi ljudi i soba može da primi ukupno ki osobe (pi ≤ ki). Vaš zadatak je da prebrojite koliko soba ima slobodnog mesta i za Džordža i za Aleksu.​
+
+// Prvi red sadrži jedan ceo broj n  — broj soba.​
+
+// I-ti od sledećih n redova sadrži dva cela broja pi i ki  — broj ljudi koji već žive u i-toj sobi i kapacitet sobe.​
+
+// Odštampajte jedan ceo broj — broj soba u koje Džordž i Aleks mogu da se usele.​
+
+// Ulazni parametri: (3​
+
+// 1 1​
+
+// 2 2​
+
+// 3 3), (3​
+
+// 1 10​
+
+// 0 10​
+
+// 10 10)​
+
+// Izlazni parametri: (0), (2)
+int main() {
+        int n;
+        printf("Unesite broj soba: ");
+        scanf("%d", &n);
+        int brojLjudi, kapacitet, slobodno = 0;
+
+        for (int i = 1; i <= n; i++) {
+                printf("Unesite broj ljudi u sobi i kapacitet sobe: ");
+                scanf("%d %d", &brojLjudi, &kapacitet);
+                if (kapacitet > brojLjudi) {
+                        slobodno += 1;
+                }
+        } printf("%d", slobodno);
+          return 0;
+}
