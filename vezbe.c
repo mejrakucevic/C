@@ -1423,3 +1423,44 @@
 // }
 
 // uradjeni : 1, 3, 4, 5, 8, 9    (6/10)
+
+// 1. Two Sum
+
+// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+// You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+// Example 1:
+
+// Input: nums = [2,7,11,15], target = 9
+// Output: [0,1]
+
+// int main() {
+
+//         int n1, n2, n3, n4;
+//         int target;
+//         printf("Unesite brojeve: ");
+//         scanf("%d %d %d %d", &n1, &n2, &n3, &n4);
+
+//         printf("Unesite target: ");
+//         scanf("%d", &target);
+
+//         if (n1 + n2 == target) {
+//                 printf("0, 1");
+//         } else if (n1 + n3 == target) {
+//                 printf("0, 2");
+//         } else if (n1 + n4 == target) {
+//                 printf("0, 3");
+//         }
+//         else if (n2 + n3 == target) {
+//                 printf("1, 2");
+//         } else if (n2 + n4 == target) {
+//                 printf("1, 3");
+//         }
+//         else if (n3 + n4 == target) {
+//                 printf("2 3");
+//         }
+
+
+// }
+
