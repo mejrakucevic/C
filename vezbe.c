@@ -5,10 +5,8 @@
 #include <time.h>
 #include <string.h>
 
+// Strukture podataka i algoritmi vezbanja (C)
 
-
-
-// Strukture podataka i algoritmi vezbanja
 // ---------------------------------------------------------------------------------------------------------------------------
 
 // 1. izracunati dijagonalu pravougaonika
