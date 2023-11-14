@@ -1527,8 +1527,54 @@
 //         }
 //         }  return 0;
 //     }
-// б) while-do наредбе,
+// б) saboiranje a i b unetih brojeva u while-do наредбе,
+
+// int main() {
+//         int a, b, zbir = 0;
+//         printf("Unesite pozitivan broj a i b: ");
+//         scanf("%d %d", &a, &b);
+
+//         while (a >= 0 , b >= 0 ) {
+//                 int zbir = a + b;
+//                 printf("%d\n", zbir);
+//                 break;
+
+//         } return 0;
+// }
+
 // в) do-while наредбе.
+
+// int main() {
+//         int a, b, zbir = 0;
+//         printf("Unesite pozitivan broj a i b: ");
+//         scanf("%d %d", &a, &b);
+
+//         do {
+//                 int zbir = a + b;
+//                 printf("%d", zbir);
+//                 break;
+//         } while (a >= 0 && b  >= 0); return 0;
+
+// }
+
+// suma brojeva od 1 do n u while-do petlji
+
+// int main() {
+//         int n, i = 1, sum = 0;
+//         printf("Unesite n: ");
+//         scanf("%d", &n);
+      
+//         //  i = 1 i sum = 0, prva iteracija => sum = 1, i = 2; druga it sum = 3 i = 3 treca it sum = 6 i = 4 itd...
+
+//         while (i <= n) {          
+//                 sum += i;
+//                 i++;
+
+                
+//         }     printf("%d", sum);
+// return 0;
+// }
+
 // ----------------------------------------------------------------------------------------------------------------------------------
 
 // 5 Написати функцију која рачуна факторијел неког броја.
