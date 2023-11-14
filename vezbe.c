@@ -1527,19 +1527,21 @@
 //         }
 //         }  return 0;
 //     }
-// б) saboiranje a i b unetih brojeva u while-do наредбе,
+// б) saboiranje pozitivnih a i b unetih brojeva u while-do наредбе,
 
 // int main() {
-//         int a, b, zbir = 0;
+//         int a, b;
 //         printf("Unesite pozitivan broj a i b: ");
 //         scanf("%d %d", &a, &b);
+//         int zbir = a + b;
+
 
 //         while (a >= 0 , b >= 0 ) {
-//                 int zbir = a + b;
 //                 printf("%d\n", zbir);
 //                 break;
 
-//         } return 0;
+//         }                 
+// return 0;
 // }
 
 // в) do-while наредбе.
@@ -1556,6 +1558,7 @@
 //         } while (a >= 0 && b  >= 0); return 0;
 
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // suma brojeva od 1 do n u while-do petlji
 
@@ -1574,11 +1577,51 @@
 //         }     printf("%d", sum);
 // return 0;
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// suma brojeva od 1 do n u do-while petlji
+
+// int main() {
+//         int n, i = 1, sum = 0;
+//         printf("Unesite n: ");
+//         scanf("%d", &n);
+
+//         do {
+//                 sum += i;
+//                 i++;
+//         } while (i <= n);
+//           printf("%d", sum); return 0;
+
+// }
+
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
 // 5 Написати функцију која рачуна факторијел неког броја.
 // ----------------------------------------------------------------------------------------------------------------------------------
+
+// Slon je odlučio da poseti svog prijatelja. Ispostavilo se da se kuća slona nalazi u tački 0, a kuća njegovog prijatelja u tački k(k > 0) koordinatne prave. U jednom koraku slon može da se pomeri za 1, 2, 3, 4 ili 5 pozicija napred. Odredi koji je minimalni broj koraka koji treba da napravi da bi stigao do kuće svog prijatelja.​
+
+// Prvi red unosa sadrži ceo broj k — koordinata kuće prijatelja.​
+
+// Odštampajte minimalni broj koraka koje slon treba da napravi da bi stigao od tačke 0 do tačke k.​
+
+// Ulazni parametri: (5), (12)​
+
+// Izlazni parametri: (1), (3)
+
+// int main() {
+//         int k, broj;
+//         printf("Unesite broj koraka: ");
+//         scanf("%d", &k);
+
+//         broj = (k + 4) / 5;
+//         printf("%d", broj);
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+
 
 // 6 Написати процедуру zamena_mesta која као параметре прихвата два броја и мења им
 // вредности. У главном програму дефинисати два броја, приказати њихове вредности пре и
