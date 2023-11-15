@@ -1693,3 +1693,30 @@
 // ...
 // 30. dana: uplata = ... dinara, saldo ... dinara
 // Hvala tata.
+
+// !!!!!! linear search algorithm that finds a target number from array of numbers !!!!!!!! //
+
+// int linearSearch(int numbers[], int size, int target) {
+//         for (int i = 0; i < size; i++) {
+//                 if (numbers[i] == target) {
+//                         return i;
+//                 }
+//         }
+//         return -1;
+// }
+
+// int main() {
+//         int brojevi[] = {1, 2, 3, 4, 5};
+//         int tacanBr = 3;
+//         int velicina = sizeof(brojevi)/sizeof(brojevi[0]);
+
+//         int result = linearSearch(brojevi, velicina, tacanBr);
+
+//         if (result != -1) {
+//                 printf("Target found at index: %d\n", result);
+//         } else {
+//                 printf("Target not found");
+//         }
+
+//         return 0;
+// }
