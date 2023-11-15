@@ -25,23 +25,23 @@
 // typedef = reserved keyword that gives a nickname for an existing datatype
 // its mostly for convenience
 
-typedef char user[25] ;
+// typedef char user[25] ;
 
 
-struct Student {
-  char name[12];
-  float gpa;
-};
+// struct Student {
+//   char name[12];
+//   float gpa;
+// };
 
-struct reperi {
-  char ime[20];
-  int grammys;
-};
+// struct reperi {
+//   char ime[20];
+//   int grammys;
+// };
 
-// ENUMNS ARE NOT STRINGS, HELP MAKE THE CODE MORE READABLE;
-enum Day{Sun = 1, Mon = 2, Tue = 3, Wed = 4, Thu, Fri, Sat};
+// // ENUMNS ARE NOT STRINGS, HELP MAKE THE CODE MORE READABLE;
+// enum Day{Sun = 1, Mon = 2, Tue = 3, Wed = 4, Thu, Fri, Sat};
 
-int main() {
+// int main() {
 
   //  srand(time(0));
 
@@ -55,36 +55,36 @@ int main() {
   //   printf("%d\n", number2);
   //    printf("%d", number3);
 
-  const int MIN = 1;
-  const int MAX = 100;
-  int guess;
+  // const int MIN = 1;
+  // const int MAX = 100;
+  // int guess;
 
-  int guesses = 0;
-  int answer;
+  // int guesses = 0;
+  // int answer;
 
-  srand(time(0));
+  // srand(time(0));
 
-  // generates a random number between min and max
-  answer = (rand() % MAX) + MIN;
+  // // generates a random number between min and max
+  // answer = (rand() % MAX) + MIN;
 
-     do{
-         printf("Enter a guess: ");
-         scanf("%d", &guess);
+  //    do{
+  //        printf("Enter a guess: ");
+  //        scanf("%d", &guess);
 
-         if (guess > answer) {
-          printf("Too high!\n");
-         } else if (guess < answer) {
-          printf("Too low!\n");
-         } else {
-          printf("CORRECT!\n");
-         }
-         guesses++;
-     } while (guess != answer);
+  //        if (guess > answer) {
+  //         printf("Too high!\n");
+  //        } else if (guess < answer) {
+  //         printf("Too low!\n");
+  //        } else {
+  //         printf("CORRECT!\n");
+  //        }
+  //        guesses++;
+  //    } while (guess != answer);
 
-       printf("-----------------------\n");
-       printf("answer: %d\n", answer);
-       printf("guesses: %d\n", guesses);
-       printf("-----------------------");
+  //      printf("-----------------------\n");
+  //      printf("answer: %d\n", answer);
+  //      printf("guesses: %d\n", guesses);
+  //      printf("-----------------------");
 
 
 
@@ -119,8 +119,8 @@ int main() {
     // }
 
 
-  }
-       user user1 = "Bro";
+  // }
+      //  user user1 = "Bro";
     // struct Player player1;
     // struct Player player2;
 
@@ -575,3 +575,4 @@ int main() {
 
 //   return 0;
 // }
+
