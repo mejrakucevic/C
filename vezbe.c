@@ -1672,7 +1672,6 @@
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 
-
 // 8 Марко Марковић је студент 1. године ФОН-а и на свом рачуну у банци има X динара. Марко
 // је имао договор са својим оцем да уколико положи Програмирање 1 у јунском испитном року,
 // отац Марку почев од 1. септембра уплаћује на рачун у банци Y динара следећих D дана на
@@ -1720,3 +1719,73 @@
 
 //         return 0;
 // }
+
+// Unose se celi brojevi dok se ne unese 0. Izračunati i ispisati prosek unetih parnih brojeva.
+
+// int main() {
+//         int n;
+//         int brojac = 0;
+//         int zbir = 0;
+//         printf("Unesite ceo broj: ");
+//         scanf("%d", &n);
+
+//         for (int i = 1; i <= n; i++) {
+//                 if (i % 2 == 0) {
+//                         brojac += 1;
+//                         zbir += i;
+//                 }
+ 
+//         } int prosek = zbir / brojac;
+//           printf("%d", prosek);
+// }
+
+// a) Napisati algoritam i program kojim se za uneti ceo broj n ispituje da li je broj prost // broj je prost samo ako moze da se deli sa 1 i sa samim sobom
+
+// int main() {
+//         int n;
+//         printf("Unesite broj: ");
+//         scanf("%d", &n);
+//         int prost = 1;
+
+//         if (n <= 1) {
+//                 prost = 0;
+//         } else {
+//                 for (int i = 2; i < n; i++) {
+//                         if (n % i == 0) {
+//                                 prost = 0;
+//                                 break;
+//                         }
+
+//                 } if (prost == 1) {
+//                         printf("Broj je prost!");
+//                 } else printf("Nije prost!");
+//         }          return 0;
+// }
+
+
+// Definisati funkciju Max koja izračunava maksimum za dva
+// broja. Napisati program koji, koristeći funkciju Max, određuje
+// maksimum tri uneta broja.
+
+// Napisati algoritam i program koji za uneti ceo broj x izračunava
+// vrednost broja y, ako je
+
+int main() {
+        int y, x;
+        printf("Unesite x: ");
+        scanf("%d", &x);
+
+        if (x < -15) {
+                y = x * x;
+        }
+
+        if(-15 <= x && x < 23){
+                y = x + 20;
+        }
+
+        if(x>=23) {
+                y = sqrt(x);
+        }
+
+        printf("%d", y);
+}
