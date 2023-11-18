@@ -1719,6 +1719,7 @@
 
 //         return 0;
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Unose se celi brojevi dok se ne unese 0. Izračunati i ispisati prosek unetih parnih brojeva.
 
@@ -1738,6 +1739,7 @@
 //         } int prosek = zbir / brojac;
 //           printf("%d", prosek);
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // a) Napisati algoritam i program kojim se za uneti ceo broj n ispituje da li je broj prost // broj je prost samo ako moze da se deli sa 1 i sa samim sobom
 
@@ -1762,30 +1764,85 @@
 //         }          return 0;
 // }
 
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Definisati funkciju Max koja izračunava maksimum za dva
 // broja. Napisati program koji, koristeći funkciju Max, određuje
 // maksimum tri uneta broja.
+// ----------------------------------------------------------------------------------------------------------------------------------
 
 // Napisati algoritam i program koji za uneti ceo broj x izračunava
 // vrednost broja y, ako je
 
-int main() {
-        int y, x;
-        printf("Unesite x: ");
-        scanf("%d", &x);
+// int main() {
+//         int y, x;
+//         printf("Unesite x: ");
+//         scanf("%d", &x);
 
-        if (x < -15) {
-                y = x * x;
-        }
+//         if (x < -15) {
+//                 y = x * x;
+//         } else if(-15 <= x && x < 23){
+//                 y = x + 20;
+//         } else if(x>=23) {
+//                 y = sqrt(x);
+//         }
 
-        if(-15 <= x && x < 23){
-                y = x + 20;
-        }
+//         printf("%d", y);
+// }
+// ----------------------------------------------------------------------------------------------------------------------------------
 
-        if(x>=23) {
-                y = sqrt(x);
-        }
+// Jedan od najvećih problema sa kojima se današnje društvo suočava je zagađenje životne sredine. Stanari jedne zgrade u
+// evropskoj metropoli svake nedelje vrše razdvajanje kućnog otpada na plastiku(1), staklo(2) i aluminijum(3). 
+// Spaljivanjem njihovog otpada se proizvede određena količina struje koja zavisi od materijala koji se spaljuje. 
+//Od 1kg bačenog materijala dobijase određena količina struje u kWh i to: od plastike 0.75kWh struje, od stakla 0.55kWh struje i od aluminijuma 0.33kWh struje.
+// Svaki stanar predaje tačno 2 vrste otpada u kilogramima, i na osnovu količine svake vrste materijala određuje se ukupna količina
+// proizvedene struje npr. 5.3 kg stakla i 6.7kg plastike, od čega se proizvede 7.94kWh struje. Napisati program koji određuje koji
+// stanar po redu iz ove zgrade je proizveo najveću količinu struje svojim otpadom i koliko je struje proizveo. Ukoliko je više stanara
+// proizvelo istu količinu struje, pretpostaviti da je prvi po redu od njih proizveo najveću količinu struje.
+// U prvoj liniji standardnog ulaza nalazi se broj stanara zgrade N (prirodan broj 1 ≤ N ≤ 50). U narednih N linija za svakog stanara se
+// unose vrednosti: vrsta_materijala količina vrsta_materijala količina, gde vrsta_materijala može imati vrednosti 1,2 ili
+// 3(plastika(1), staklo(2), aluminijum(3)), a količina je realan broj. Na standardnom izlazu ispisati redni broj stanara(celobrojna
+// vrednost od 1 do N) i količina proizvedene struje.
 
-        printf("%d", y);
-}
+// Ulaz              Izlaz
+// 4                 1 7.94
+// 2 5.3 1 6.7
+// 3 2.1 2 4.5
+// 1 4.3 3 5.1
+// 2 3.8 3 2.7
+
+// int main() {
+//         int n;
+//         printf("Unesite broj stanara: ");
+//         scanf("%d", &n);
+
+//         float vrstaMaterijala, kolicina;
+//         float vrstaMaterijala2, kolicina2;
+//         float energija = 1;
+//         float maksEnergija = 0;
+
+//         for (int i = 1; i <= n; i++) {
+//                 printf("Unesite vrste materijala i kolicine: ");
+//                 scanf("%f %f %f %f", &vrstaMaterijala, &kolicina, &vrstaMaterijala2, &kolicina2); 
+                
+//                 if (vrstaMaterijala == 1) {
+//                         energija = 0.75 * kolicina;
+//                 } else if (vrstaMaterijala == 2) {
+//                         energija = 0.55 * kolicina;
+//                 } else if (vrstaMaterijala == 3) {
+//                         energija = 0.33 * kolicina;
+//                 }
+
+//                 if (vrstaMaterijala2 == 1) {
+//                         energija += 0.75 * kolicina2;
+//                 } else if (vrstaMaterijala2 == 2) {
+//                         energija += 0.55 * kolicina2;
+//                 } else if (vrstaMaterijala2 == 3) {
+//                         energija += 0.33 * kolicina2;
+//                 }
+
+//                 if (energija > maksEnergija) {
+//                         maksEnergija = energija;
+//                 }
+//         } printf("%.2f", maksEnergija);
+// }
