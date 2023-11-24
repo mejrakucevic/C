@@ -1846,3 +1846,108 @@
 //                 }
 //         } printf("%.2f", maksEnergija);
 // }
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// 1. Napisati program koji ce uneti trocifreni broj, rastaviti cifre i cifre sortirati u rastucem redosledu
+
+// int main() {
+//         int broj;
+//         printf("Unesite neki trocifreni broj: ");
+//         scanf("%d", &broj);
+
+
+//         printf("Uneli ste %d\n", broj);
+
+//         int prvi = broj / 100; // npr. 352 / 100 je u int vrednosti samo 3, bez ostatka
+//         int drugi = (broj / 10) % 10; // 352 / 10 je 35, ostatak deljenja 35 sa 10 je 5
+//         int treci = broj % 10; // ostatak deljenja 352 sa 10 je 2
+//         int max = 1;
+
+//         if (prvi > max) {
+//                 max = prvi;
+//         } 
+//         if (drugi > max) {
+//                 max = drugi;
+//         }
+//         if (treci > max) {
+//                 max = treci;
+//         }
+
+//         printf("Broj %d je sastavljen od cifara %d %d %d, a od njih najveca je : %d", broj, prvi, drugi, treci, max);
+// }
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// za funkciju y 
+// int main() {
+//         int x, a;
+//         printf("Unesite broj x od -5 do 10: ");
+//         scanf("%d", &x);
+
+//         if (x < -5 || x > 10) {
+//                 printf("Pogresan unos.");
+//         }else if (x > -2 && x <= 2) {
+//                 a = 5 * (pow(x, 15));
+//                 printf("%d", a);
+//         }else if (x > 3 && x <= 7) {
+//                 a = 3*x-1;
+//                 printf("%d", a);
+//         } else {
+//                 a = sqrt(x*x-5);
+//                 printf("%d", a);
+//         }
+//           return 0;
+// }
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Na jednom turniru, dzudisti se takmice u 3 kategorije: do 50kg, od 51 do 75kg, i od 76 pa navise. Napisi program koji ucitava broj dzudista jednog kluba prijavljenog na taj
+// turnir,a zatim tezinu od svakog od njih i za svaku kateogirju redom ispisuje koliko ce se dzudista tog kluba boriti u toj kategoriji:
+
+// int main() {
+//         int n;
+//         int tez;
+//         int k1 = 0;
+//         int k2 = 0;
+//         int k3 = 0;
+
+//         printf("Unesite broj prijavljenih dzudista: ");
+//         scanf("%d", &n);
+        
+//         for (int i =1; i <=n; i++) {
+//                 printf("Unesite tezinu dzudiste: ");
+//                 scanf("%d", &tez);
+//                 if (tez <= 0) {
+//                         printf("Pogresan unos tezine.");
+//                         continue;
+//                 } 
+
+
+//                 if (tez <= 50) {
+//                         k1 += 1;
+//                 } else if (tez >= 51 && tez <= 75) {
+//                         k2 += 1;
+//                 } else if (tez >= 76) {
+//                         k3 +=1;
+//                 }
+//         }
+//         printf("Broj dzudista u 1.kategoriji je: %d\n", k1);
+//         printf("Broj dzudista u 2.kategoriji je: %d\n", k2);
+//         printf("Broj dzudista u 3.kategoriji je: %d", k3);
+//         return 0;
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Саставити програм који ће учитати n реалних бројева и исписати највећи.
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Саставити програм који ће исписати све бројева прве стотине који су дељиви са 6 и њихову
+//суму.
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Vojnik želi da kupi banane u radnji. Mora da plati k dolara za prvu bananu, 2k dolara za drugu i tako dalje (drugim rečima, mora da plati i·k dolara za i-tu bananu).​
+// On ima n dolara. Koliko dolara mora da pozajmi od svog prijatelja vojnika da bi kupio banane?​
+// Prvi red sadrži tri pozitivna cela broja k, n, v , cenu prve banane, početni broj dolara koji vojnik ima i broj banana koje želi.​
+// Iznesite jedan ceo broj — iznos dolara koji vojnik mora da pozajmi od svog prijatelja. Ako ne mora da pozajmi novac, ispišite 0.​
+
+// Ulazni parametri: (3 17 4)​  
+// Izlazni parametri: (13)​
