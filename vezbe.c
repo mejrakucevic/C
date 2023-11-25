@@ -1939,12 +1939,42 @@
 
 // Саставити програм који ће учитати n реалних бројева и исписати највећи.
 // ----------------------------------------------------------------------------------------------------------------------------------
+// int main() {
+//         int n, b;
+//         int max = 0;
+//         printf("Unesite broj brojeva: ");
+//         scanf("%d", &n);
 
+//         for (int i =1; i <= n; i++) {
+//                 printf("Unesite broj: ");
+//                 scanf("%d", &b);
+
+//                 if (b > max) {
+//                         max = b;
+//                 }
+//         } printf("%d", max);
+// }
 // Саставити програм који ће исписати све бројева прве стотине који су дељиви са 6 и њихову
 //суму.
 // ----------------------------------------------------------------------------------------------------------------------------------
 
-// Vojnik želi da kupi banane u radnji. Mora da plati k dolara za prvu bananu, 2k dolara za drugu i tako dalje (drugim rečima, mora da plati i·k dolara za i-tu bananu).​
+// int main() {
+//         int b;
+//         int suma = 0;
+//         printf("Unesite delilac: ");
+//         scanf("%d", &b);
+
+//         for (int i = 1; i <= 100; i++) {
+//                 if (i % b == 0) {
+                        
+//                         printf("%d\n", i);
+//                         suma += i;
+//                 }
+//         } printf("Suma je %d", suma);
+// }
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// // Vojnik želi da kupi banane u radnji. Mora da plati k dolara za prvu bananu, 2k dolara za drugu i tako dalje (drugim rečima, mora da plati i·k dolara za i-tu bananu).​
 // On ima n dolara. Koliko dolara mora da pozajmi od svog prijatelja vojnika da bi kupio banane?​
 // Prvi red sadrži tri pozitivna cela broja k, n, v , cenu prve banane, početni broj dolara koji vojnik ima i broj banana koje želi.​
 // Iznesite jedan ceo broj — iznos dolara koji vojnik mora da pozajmi od svog prijatelja. Ako ne mora da pozajmi novac, ispišite 0.​
