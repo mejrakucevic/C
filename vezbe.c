@@ -1981,3 +1981,20 @@
 
 // Ulazni parametri: (3 17 4)​  
 // Izlazni parametri: (13)​
+
+// int main() {
+//         int k, n ,v;
+//         int ukupnaCenaBan = 0;
+//         int pozajmiti;
+//         printf("Unesite cenu prve banane, broj dolara vojnika i broj banan koje zeli: ");
+//         scanf("%d %d %d", &k, &n, &v);
+
+//         for (int i =1; i <= v; i++) {
+//                 ukupnaCenaBan += k * i;
+//         }
+//         pozajmiti = ukupnaCenaBan - n;
+//         printf("%d", pozajmiti); return 0;
+// }
+
+//------------------------------------------------------------------------------------------------------------------------------------------
+//  Napisati program koji za uneseno n štampa sumu prvih n prirodnih brojeva i n!
