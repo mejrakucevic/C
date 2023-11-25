@@ -1998,3 +1998,15 @@
 
 //------------------------------------------------------------------------------------------------------------------------------------------
 //  Napisati program koji za uneseno n štampa sumu prvih n prirodnih brojeva i n!
+
+// int main() {
+//         int n, nf = 1, suma = 0;
+//         printf("Unesite broj: ");
+//         scanf("%d", &n);
+
+//         for (int i = 1; i <= n; i++) {
+//                 suma += i;
+//                 nf *= i;
+//         } printf("Suma je %d, faktorijal je %d", suma, nf);
+//         return 0;
+// }
