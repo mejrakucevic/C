@@ -1919,8 +1919,6 @@
 //                         printf("Pogresan unos tezine.");
 //                         continue;
 //                 } 
-
-
 //                 if (tez <= 50) {
 //                         k1 += 1;
 //                 } else if (tez >= 51 && tez <= 75) {
@@ -2011,3 +2009,68 @@
 //         return 0;
 // }
 //------------------------------------------------------------------------------------------------------------------------------------------
+
+// 3 Унети доњу и горњу границу интервала бројева [dg, gg]. Израчунати средњу вредност
+// непарних бројева у задатом интервалу [dg, gg].
+//------------------------------------------------------------------------------------------------------------------------------------------
+
+// Jednog dana tri najbolja prijatelja Pet, Vasa i  Toni odlučili su da formiraju tim i učestvuju u takmičenjima u programiranju. Učesnicima se obično nudi nekoliko zadataka tokom takmičenja u programiranju. Mnogo pre početka prijatelji su odlučili da će sprovesti problem ako su bar dvojica sigurni u rešenje. U suprotnom, prijatelji neće napisati rešenje problema.​
+// Ovo takmičenje nudi učesnicima n problema. Za svaki problem koji znamo, koji prijatelj je siguran u rešenje. Pomozite prijateljima da pronađu broj problema za koje će napisati rešenje.​
+// Prva linija unosa sadrži jedan ceo broj n — broj zadataka u takmičenju. Tada n redova sadrži po tri cela broja, svaki ceo broj je ili 0 ili 1. Ako je prvi broj u redu 1, onda je Pet siguran u rešenje problema, inače nije siguran. Drugi broj prikazuje Vasa pogled na rešenje, treći broj prikazuje Toni pogled. Brojevi na linijama su razdvojeni razmacima.​
+// Odštampajte jedan ceo broj — broj problema koje će prijatelji primeniti na takmičenju.​
+// Ulazni parametri :​
+//  (3 ​
+// 1 1 0 ​
+// 1 1 1 ​
+// 1 0 0),​
+
+// (2​
+// 1 0 0​
+// 0 1 1)​
+
+// Izlazni parametri: (2), (1)​
+
+
+
+
+// Poznato je nekoliko linija autobusa koji putuju od jednog do drugog grada. Svaka linija ima određeni kapacitet putnika i trenutni broj putnika u autobusu. Vaš zadatak je da odredite koliko autobusa može primiti još putnika.
+
+// Ulazni podaci:
+
+// Prva linija sadrži jedan ceo broj n - ukupan broj autobusa.
+// Svaka od n sledećih linija sadrži dva cela broja pi i ki - trenutni broj putnika i kapacitet i-tog autobusa.
+// Ispis:
+
+// Jedan ceo broj koji predstavlja broj autobusa u koje još putnika može stati.
+// Primer ulaza:
+
+// int main() {
+//         int n, pi, ki;
+//         printf("Unesite broj buseva: ");
+//         scanf("%d", &n);
+//         int slobodno = 0;
+
+//         for (int i = 1; i<= n; i++) {
+//                 printf("Unesite broj putnika i kapacitet buseva: ");
+//                 scanf("%d %d", &pi, &ki);
+
+//                 if (pi < ki) {
+//                         slobodno += 1;
+//                 }
+//         } printf("%d", slobodno);
+
+//         return 0;
+// }
+// Primer uklaza :
+// 3
+// 20 50
+// 30 40
+// 15 30
+
+// Primer izlaza:
+// 3
+
+
+// Želimo da napravimo red cigli dužine gol (x) inča. Imamo nekoliko malih cigli (1 inč svaka) i velikih cigli (5 inča svaka). Vrati true ako je moguće postići cilj biranjem od datih cigli. Ovo je malo teže nego što izgleda i može se uraditi bez ikakvih petlji.
+
+// Reći ćemo da je broj "tinejdžer" ako je u opsegu od 13..19 uključujući. Date su 3 vrednosti int, vratite true ako su 1 ili više njih tinejdžeri.
