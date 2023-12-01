@@ -337,8 +337,8 @@
     // printf("How old are you?\n");
     // scanf("%d", &age1);
     // printf("You are %d years old", age1);
-
-    // double A = sqrt(64);
+      int main() { 
+    double AZDAHA = sqrt(256); }
     // double B = pow(2, 4);
     // int C = round(3.14);
     // int D = ceil(3.14); //round up

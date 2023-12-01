@@ -2044,23 +2044,23 @@
 // Jedan ceo broj koji predstavlja broj autobusa u koje još putnika može stati.
 // Primer ulaza:
 
-// int main() {
-//         int n, pi, ki;
-//         printf("Unesite broj buseva: ");
-//         scanf("%d", &n);
-//         int slobodno = 0;
+int main() {
+        int n, pi, ki;
+        printf("Unesite broj buseva: ");
+        scanf("%d", &n);
+        int slobodno = 0;
 
-//         for (int i = 1; i<= n; i++) {
-//                 printf("Unesite broj putnika i kapacitet buseva: ");
-//                 scanf("%d %d", &pi, &ki);
+        for (int i = 1; i<= n; i++) {
+                printf("Unesite broj putnika & kapacitet buseva: ");
+                scanf("%d %d", &pi, &ki);
 
-//                 if (pi < ki) {
-//                         slobodno += 1;
-//                 }
-//         } printf("%d", slobodno);
+                if (pi < ki) {
+                        slobodno += 1;
+                }
+        } printf("%d", slobodno);
 
-//         return 0;
-// }
+
+}
 // Primer uklaza :
 // 3
 // 20 50
@@ -2073,4 +2073,4 @@
 
 // Želimo da napravimo red cigli dužine gol (x) inča. Imamo nekoliko malih cigli (1 inč svaka) i velikih cigli (5 inča svaka). Vrati true ako je moguće postići cilj biranjem od datih cigli. Ovo je malo teže nego što izgleda i može se uraditi bez ikakvih petlji.
 
-// Reći ćemo da je broj "tinejdžer" ako je u opsegu od 13..19 uključujući. Date su 3 vrednosti int, vratite true ako su 1 ili više njih tinejdžeri.
+// Reći ćemo da je broj "tinejdzer" ako je u opsegu od 13..19 uključujući. Date su 3 vrednosti int, vratite true ako su 1 ili više njih tinejdžeri.
