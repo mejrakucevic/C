@@ -2059,7 +2059,7 @@ int main() {
                 }
         } printf("%d", slobodno);
 
-
+       return 0;
 }
 // Primer uklaza :
 // 3
