@@ -400,7 +400,7 @@
     //      temp = (temp * 9 / 5) + 32;
     //      printf("\nThe temperature in Farenheith is: %.1f", temp);
     // } else if (unit == 'F'){
-    //              printf("\nEnter the temp in Farenheit");
+    //              printf("\nEnter the temp in Farenheit Degrees:");
     //              scanf("%f", &temp);
     //              temp = ((temp - 32) * 5) / 9;
     //              printf("\nThe temp in celsius is %.1f", temp);
