@@ -2044,23 +2044,23 @@
 // Jedan ceo broj koji predstavlja broj autobusa u koje još putnika može stati.
 // Primer ulaza:
 
-int main() {
-        int n, pi, ki;
-        printf("Unesite broj buseva: ");
-        scanf("%d", &n);
-        int slobodno = 0;
+// int main() {
+//         int n, pi, ki;
+//         printf("Unesite broj buseva: ");
+//         scanf("%d", &n);
+//         int slobodno = 0;
 
-        for (int i = 1; i<= n; i++) {
-                printf("Unesite broj putnika & kapacitet buseva: ");
-                scanf("%d %d", &pi, &ki);
+//         for (int i = 1; i<= n; i++) {
+//                 printf("Unesite broj putnika & kapacitet buseva: ");
+//                 scanf("%d %d", &pi, &ki);
 
-                if (pi < ki) {
-                        slobodno += 1;
-                }
-        } printf("%d", slobodno);
+//                 if (pi < ki) {
+//                         slobodno += 1;
+//                 }
+//         } printf("%d", slobodno);
 
-       return 0;
-}
+//        return 0;
+// }
 // Primer uklaza :
 // 3
 // 20 50

@@ -600,3 +600,93 @@
 
 //         return 0;
 // }
+
+// void prikazNiza(int nekiNiz[], int n) {
+//     for (int i = 0; i < n; i++) {
+//       printf("%d", nekiNiz[i]);
+//     } 
+// }
+
+// void sumaBrNiza(int nekiNiz[], int n) {
+//   int zbir = 0;
+
+//   for (int i = 0; i < n; i++) {
+//     zbir += nekiNiz[i];
+    
+//   } printf("\n%d", zbir);
+// }
+
+// int srednjaVr(int nekiNiz[], int n) {
+//   int zbir = 0;
+//   int brojacBr = 0;
+
+//   for (int i = 0; i < n; i++) {
+//     zbir += nekiNiz[i];
+//     brojacBr += 1;
+//   } int srednja = zbir / brojacBr; 
+//     return srednja;
+// }
+
+// int main() {
+//   int nekiNiz[] = {1, 2, 3, 4, 5};
+//   // izracunavanje velicine niza
+//   int n = sizeof(nekiNiz)/sizeof(int); 
+//   prikazNiza(nekiNiz, n);
+
+//   sumaBrNiza(nekiNiz, n);  // printf("\nZbir je: %d", sumaBrNiza(nekiNiz, n)); - ovo bi koristli ako bi funckija bila INT 
+
+//   printf("\nSrednja vrednost je: %d", srednjaVr(nekiNiz, n));
+
+
+//   return 0;
+// }
+
+// Unos niza i prikaz unetog niza
+
+void unosNiza(int niz[]) {
+  int n;
+  printf("Unesite broj clanova niza (<5): ");
+  scanf("%d", &n);
+
+  for (int i = 1; i <= n; i++) {
+    if (n > 5) { 
+     printf("MORA <5 !!!!!!!");
+     break;
+   } else { 
+    printf("Unesite clan %d: ", i);
+    scanf("%d", &niz[i]);
+    } }
+} 
+
+void prikazNiza(int niz[]) {
+  int n;
+    for (int i = 1; i <= n; i++) {
+      printf("\n%d", niz[i]);
+    }
+}
+// provera postojanja odredjenog broja u nizu
+int postojanjeBroja(int niz[], int n) {
+  int broj;
+  printf("Unesite broj koji trazite: ");
+  scanf("%d", &broj);
+
+  for (int i = 1; i <= n; i++) {
+    if (niz[i] == broj) {
+        printf("Broj postoji");
+        break;
+    }  else printf("Broj ne postoji!");
+       break;
+  } 
+  } 
+
+
+
+int main() {
+  int n, postoji, broj;
+  int niz[5];
+  unosNiza(niz);
+  // prikazNiza(niz);
+  printf("%d", postojanjeBroja(niz, n));
+
+  return 0;
+}
